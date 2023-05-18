@@ -1,0 +1,98 @@
+{
+	[ slides
+		slide( 00 BeBa logo.png
+			image( thin-left, 00 BeBa logo.png
+		slide( 00 App Store.png
+			image( thin-left, 00 App Store.png
+		slide( 01 I miei bambini Giovanni.jpg
+			image( thin-left, 01 I miei bambini Giovanni.jpg
+		slide( 02 I miei bambini Mia.jpg
+			image( thin-left, 02 I miei bambini Mia.jpg
+		slide( 04 aggiungere bambini 2.jpg
+			image( thin-left, 04 aggiungere bambini 2.jpg
+		slide( 05 home baby news e guide.jpg
+			image( thin-left, 05 home baby news e guide.jpg
+		slide( 03 aggiungere bambini.jpg
+			image( thin-left, 03 aggiungere bambini.jpg
+		slide( 06 news.jpg
+			image( thin-left, 06 news.jpg
+		slide( 07 guide per età.jpg
+			image( thin-left, 07 guide per età.jpg
+		slide( 09 guide per età 4.jpg
+			image( thin-left, 09 guide per età 4.jpg
+		slide( 08 guide per età 3.jpg
+			image( thin-left, 08 guide per età 3.jpg
+		slide( 09 guide.jpg
+			image( thin-left, 09 guide.jpg
+		slide( 10 giochi e movimento.jpg
+			image( thin-left, 10 giochi e movimento.jpg
+		slide( 10 Guide per età 5.jpg
+			image( thin-left, 10 Guide per età 5.jpg
+		slide( 10 pediatra.jpg
+			image( thin-left, 10 pediatra.jpg
+		slide( 10 news.png
+			image( thin-left, 10 news.png
+		slide( 11 affina la ricerca.jpg
+			image( thin-left, 11 affina la ricerca.jpg
+		slide( 12 cosa fare.jpg
+			image( thin-left, 12 cosa fare.jpg
+		slide( 13 attività.jpg
+			image( thin-left, 13 attività.jpg
+		slide( 14 attività dettaglio.jpg
+			image( thin-left, 14 attività dettaglio.jpg
+		slide( 15 alimentazione.jpg
+			image( thin-left, 15 alimentazione.jpg
+		slide( 16 elenco ricette.jpg
+			image( thin-left, 16 elenco ricette.jpg
+		slide( 17 dettaglio ricetta 2.jpg
+			image( thin-left, 17 dettaglio ricetta 2.jpg
+		slide( 17 dettaglio ricetta 1.jpg
+			image( thin-left, 17 dettaglio ricetta 1.jpg
+		slide( 18 percorso bminforma.jpg
+			image( thin-left, 18 percorso bminforma.jpg
+		slide( 24 il cane in testa 2.jpg
+			image( thin-left, 24 il cane in testa 2.jpg
+		slide( 25 consiglio ascolto.jpg
+			image( thin-left, 25 consiglio ascolto.jpg
+		slide( beba guida famiglia.png
+			image( thin-left, beba guida famiglia.png
+		slide( Affina la ricerca NpL NpM.jpg
+			image( thin-left, Affina la ricerca NpL NpM.jpg
+		slide( border_left.jpg
+			image( thin-left, border_left.jpg
+		slide( border_right.jpg
+			image( thin-left, border_right.jpg
+		slide( Il cane in testa.jpg
+			image( thin-left, Il cane in testa.jpg
+		slide( i_attività.JPG
+			image( thin-left, i_attività.JPG
+		slide( i_alimentazione.JPG
+			image( thin-left, i_alimentazione.JPG
+		slide( i_cosa_fare.JPG
+			image( thin-left, i_cosa_fare.JPG
+		slide( i_guide.JPG
+			image( thin-left, i_guide.JPG
+		slide( i_home.JPG
+			image( thin-left, i_home.JPG
+		slide( legenda attività.JPG
+			image( thin-left, legenda attività.JPG
+		slide( logo BMInForma (2).jpg
+			image( thin-left, logo BMInForma (2).jpg
+		slide( logo npl.png
+			image( thin-left, logo npl.png
+		slide( logo npm.png
+			image( thin-left, logo npm.png
+		slide( rc2.jpg
+			image( thin-left, rc2.jpg
+		slide( rc_bella.jpg
+			image( thin-left, rc_bella.jpg
+		slide( rc1.jpg
+			image( thin-left, rc1.jpg
+		slide( rc_bimbo.jpg
+			image( thin-left, rc_bimbo.jpg
+		slide( rc_cane.jpg
+			image( thin-left, rc_cane.jpg
+		slide( rc_carrozzina.jpg
+			image( thin-left, rc_carrozzina.jpg
+		slide( rc_monopattino.jpg
+			image( thin-left, rc_monopattino.jpg

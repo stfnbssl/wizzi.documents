@@ -1,0 +1,1255 @@
+{
+	"defaultStyle": {
+		"fontFace": "Tahoma",
+		"fontSize": 14
+	},
+	"styles": {
+		"DebugText": {
+			"fontFace": "Arial",
+			"fontSize": 10,
+			"color": "FF0000"
+		},
+		"Tab": {
+			"x": 0.5,
+			"y": 0.13,
+			"colW": [
+				9,
+				3.33
+			]
+		},
+		"TextL": {
+			"color": "9F9F9F",
+			"margin": [
+				3,
+				3,
+				3,
+				3
+			],
+			"border": {
+				"top": null,
+				"right": null,
+				"bottom": {
+					"pt": 1,
+					"color": "CFCFCF"
+				},
+				"left": null
+			}
+		},
+		"OptsR": {
+			"color": "9F9F9F",
+			"margin": [
+				3,
+				3,
+				3,
+				3
+			],
+			"border": {
+				"top": {},
+				"right": {
+					"pt": 1,
+					"color": "CFCFCF"
+				},
+				"bottom": {},
+				"left": {}
+			},
+			"align": "right"
+		},
+		"Code": {
+			"color": "9F9F9F",
+			"margin": [
+				3,
+				3,
+				3,
+				3
+			],
+			"border": {
+				"pt": 1,
+				"color": "CFCFCF"
+			},
+			"fill": {
+				"color": "F1F1F1"
+			},
+			"fontFace": "Courier",
+			"fontSize": 12
+		},
+		"SubTitle": {
+			"x": 0.5,
+			"y": 0.7,
+			"w": 4,
+			"h": 0.3,
+			"fontSize": 18,
+			"fontFace": "Arial",
+			"color": "0088CC",
+			"fill": {
+				"color": "FFFFFF"
+			}
+		},
+		"TitleText": {
+			"fontSize": 14,
+			"color": "0088CC",
+			"bold": true
+		},
+		"TitleTextBk": {
+			"fontSize": 14,
+			"color": "0088CC",
+			"bold": true,
+			"breakLine": true
+		},
+		"TitleOpts": {
+			"fontSize": 13,
+			"color": "9F9F9F"
+		},
+		"sectionHeading1": {
+			"fontSize": 34,
+			"bold": true
+		},
+		"heading1": {
+			"fontSize": 24,
+			"bold": true
+		},
+		"heading2": {
+			"fontSize": 20,
+			"bold": true
+		},
+		"normal": {
+			"fontSize": 14
+		},
+		"normal2": {
+			"fontSize": 12
+		},
+		"textblock1": {
+			"fontSize": 18
+		},
+		"textblock2": {
+			"fontSize": 16
+		},
+		"textblock1Centered": {
+			"fontSize": 18,
+			"align": "center"
+		},
+		"thinBoldCaption": {
+			"fontSize": 12,
+			"bold": true
+		},
+		"bibliorefBold": {
+			"fontSize": 9,
+			"bold": true
+		},
+		"biblioref": {
+			"fontSize": 9
+		}
+	},
+	"slides": [
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "L’Obesità è una patologia",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"pStack": [
+						{
+							"text": "Non è la conseguenza di un disordine alimentare dovuto alla sregolatezza di ",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 14,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "individui ”deboli”",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 14,
+								"bold": true,
+								"color": "FF0000",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": ".",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 14,
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Ha natura ",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 14,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "epidemica",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 14,
+								"bold": true,
+								"color": "FF0000",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": " con scarsa consapevolezza della popolazione delle comorbilità associate nel tempo.",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 14,
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Insorge sempre più ",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 14,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "precocemente",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 14,
+								"bold": true,
+								"color": "FF0000",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": ".",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 14,
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						}
+					],
+					"options": []
+				},
+				{
+					"image": {
+						"y": "20%",
+						"x": "55%",
+						"h": "75%",
+						"w": "40%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/Obesi complessità.jpg"
+					}
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "L’obesità è una patologia cronica",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"pStack": [
+						{
+							"text": "Eziologia complessa",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 14,
+								"bold": true,
+								"color": "FF0000",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": ": fattori genetici-psicologici-tessuto socio ecologico e ambientale.",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 14,
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Il trattamento deve iniziare il prima possibile e continuare ",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 14,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "longitudinalmente",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 14,
+								"bold": true,
+								"color": "FF0000",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": " durante l'infanzia e l'adolescenza.",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 14,
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": " ",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 9,
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Il mancato riconoscimento dell'obesità come patologia contribuisce attivamente ad aggravarla.",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 14,
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Operatori sanitari come fonte di bias di peso.",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 14,
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": " ",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 9,
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Clinical Practice Guideline for the Evaluation and Treatment of Children and Adolescents With Obesity",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 9,
+								"bold": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": " Sarah E. Hampl et al; Pediatrics (2023) 151 (2): e2022060640.",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 9,
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						}
+					],
+					"options": []
+				},
+				{
+					"image": {
+						"y": "20%",
+						"x": "55%",
+						"h": "32.5%",
+						"w": "40%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/continuità trattamento2.png"
+					}
+				},
+				{
+					"image": {
+						"y": "62.5%",
+						"x": "55%",
+						"h": "32.5%",
+						"w": "40%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/stigma bimba.jpg"
+					}
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "L’Equità delle cure",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"pStack": [
+						{
+							"text": "Rilevanza delle disuguaglianze sociali",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"bold": true,
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "I fattori di rischio sono radicati nelle disuguaglianze",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 16,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Accesso alle cure",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 16,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Esperienze avverse nell'infanzia (ACE)",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 16,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Razzismo",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 16,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						}
+					],
+					"options": []
+				},
+				{
+					"pStack": [
+						{
+							"text": "Lo stigma colpisce bambini e famiglie in base alla razza, etnia, età e genere.",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 16,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 3",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						}
+					],
+					"options": []
+				},
+				{
+					"image": {
+						"y": "20%",
+						"x": "55%",
+						"h": "75%",
+						"w": "40%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/Equita e uguaglianza.jpg"
+					}
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Aspetti socio-economici",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"pStack": [
+						{
+							"text": "Gli obiettivi socio economici della collettività sono in conflitto con una sana alimentazione.",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						}
+					],
+					"options": []
+				},
+				{
+					"image": {
+						"y": "20%",
+						"x": "40%",
+						"h": "75%",
+						"w": "52%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/portion-distortion2.jpg"
+					}
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"w": "100%",
+						"h": "8%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Palette",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"color": "000000",
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"text": "titleColor: 007991, titleBkg: eec643",
+					"options": {
+						"fontFace": "Arial",
+						"fontSize": 10,
+						"color": "FF0000",
+						"y": "14%",
+						"x": "5%",
+						"w": "90%",
+						"h": "4%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 2",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"shape_RECTANGLE": {
+						"y": "20%",
+						"x": "5%",
+						"w": "20%",
+						"h": "4%",
+						"fill": {
+							"color": "439a86"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 3"
+					}
+				},
+				{
+					"text": "c1",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 14,
+						"y": "20%",
+						"x": "5%",
+						"w": "20%",
+						"h": "4%",
+						"color": "007991",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 4",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"shape_RECTANGLE": {
+						"y": "25%",
+						"x": "5%",
+						"w": "20%",
+						"h": "15%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 5"
+					}
+				},
+				{
+					"shape_RECTANGLE": {
+						"y": "20%",
+						"x": "35%",
+						"w": "20%",
+						"h": "4%",
+						"fill": {
+							"color": "439a86"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 6"
+					}
+				},
+				{
+					"text": "c2",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 14,
+						"y": "20%",
+						"x": "35%",
+						"w": "20%",
+						"h": "4%",
+						"color": "007991",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 7",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"shape_RECTANGLE": {
+						"y": "25%",
+						"x": "35%",
+						"w": "20%",
+						"h": "15%",
+						"fill": {
+							"color": "edc9ff"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 8"
+					}
+				},
+				{
+					"shape_RECTANGLE": {
+						"y": "20%",
+						"x": "65%",
+						"w": "20%",
+						"h": "4%",
+						"fill": {
+							"color": "439a86"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 9"
+					}
+				},
+				{
+					"text": "c3",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 14,
+						"y": "20%",
+						"x": "65%",
+						"w": "20%",
+						"h": "4%",
+						"color": "007991",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 10",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"shape_RECTANGLE": {
+						"y": "25%",
+						"x": "65%",
+						"w": "20%",
+						"h": "15%",
+						"fill": {
+							"color": "cf5c36"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 11"
+					}
+				},
+				{
+					"shape_RECTANGLE": {
+						"y": "50%",
+						"x": "5%",
+						"w": "20%",
+						"h": "4%",
+						"fill": {
+							"color": "439a86"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 12"
+					}
+				},
+				{
+					"text": "c4",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 14,
+						"y": "50%",
+						"x": "5%",
+						"w": "20%",
+						"h": "4%",
+						"color": "007991",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 13",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"shape_RECTANGLE": {
+						"y": "55%",
+						"x": "5%",
+						"w": "20%",
+						"h": "15%",
+						"fill": {
+							"color": "007991"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 14"
+					}
+				},
+				{
+					"shape_RECTANGLE": {
+						"y": "50%",
+						"x": "35%",
+						"w": "20%",
+						"h": "4%",
+						"fill": {
+							"color": "439a86"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 15"
+					}
+				},
+				{
+					"text": "c5",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 14,
+						"y": "50%",
+						"x": "35%",
+						"w": "20%",
+						"h": "4%",
+						"color": "007991",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 16",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"shape_RECTANGLE": {
+						"y": "55%",
+						"x": "35%",
+						"w": "20%",
+						"h": "15%",
+						"fill": {
+							"color": "439a86"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 17"
+					}
+				}
+			]
+		}
+	]
+}

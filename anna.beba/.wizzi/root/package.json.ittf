@@ -1,0 +1,28 @@
+{ 
+    name "Cosie"
+    version "0.0.1"
+    description ""
+    { author
+        name ""
+        email ""
+    private false
+    [ licenses
+        { 
+            type "MIT"
+            url "https://github.com///tree/master/license.txt"
+    { repository
+        type "git"
+        url "https://github.com///tree/master"
+    { engines
+        node ">=0.10.28"
+        npm ">=1.4.28"
+    { scripts
+        ppt:marzo21 "node ./documents/marzo21/presentazione_marzo_21.ppt.js"
+        ppt:maggio23 "node ./documents/maggio23/presentazione_maggio_23.ppt.js"
+        get:images "node ./src/utils/getJsonImages.js"
+    { dependencies
+        $$ @wizzi/factory "latest"
+        @wizzi/utils "latest"
+        pdfmake "^0.1.70"
+        pptxgenjs "^3.4.0"
+    { devDependencies

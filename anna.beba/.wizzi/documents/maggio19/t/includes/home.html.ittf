@@ -1,0 +1,9 @@
+$group
+    $params &page
+    main 
+        id main
+        . container
+            $if wzCtx.Params.showXxx
+                $$ xxx()
+            $if wzCtx.Params.showXxx
+                $$ yyy()

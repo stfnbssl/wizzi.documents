@@ -1,0 +1,254 @@
+$group
+    
+    $ var cat = "Tutti a tavola";
+    $ var catN = "NpL e NpM";
+
+    { marzo21
+        $ var baseSize = 5;
+
+        { styles
+            { titolo1
+                fontSize ${baseSize * 8}
+                color "#e02424"
+            { titolo2
+                fontSize ${baseSize * 6}
+                color "#020202"
+            { para1
+                fontSize ${baseSize * 3}
+            { cite
+                fontSize ${baseSize * 2}
+        [ pages
+            {
+                name "0"
+                cat "${cat}"
+                title " "
+                { header
+                    author "Anna Maria Davoli"
+                    title "Le guide anticipatorie"
+                    subtitle1 "Tutti a tavola"
+                    subtitle2 "Nati per leggere"
+                    date "17 marzo 2021"
+                    [ images
+                        "cosie.jpg"
+                        "bminforma.png"
+                        "npl.jpg"
+            {
+                name "1"
+                $$ cat "${cat}"
+                title "Le App a supporto di genitori e caregiver"
+                [ tags
+                    {
+                        ul true
+                        [ items
+                            {
+                                li "Contenuti basati sulle evidenze"
+                            {
+                                li "Informazioni coerenti con le linee guida"
+                            {
+                                li "Sviluppate con il supporto di professionisti sanitari"
+                            {
+                                li "Con finanziamento adeguato (del Servizio Sanitario)"
+                    {
+                        p "Garantiscono che ai genitori vengano fornite risorse credibili e affidabili."
+                    {
+                        reviews true
+                        [ items
+                            {
+                                article "Content and Quality of Infant Feeding Smartphone Apps: Five-Year Update on a Systematic Search and Evaluation"
+                                authors "Heilok Cheng, et all"
+                            {
+                                article "A Mobile App, KhunLook, to Support Thai Parents and Caregivers With Child Health Supervision: Development, Validation, and Acceptability Study"
+                                authors "Rosawan Areemit"
+            {
+                name "2"
+                $$ cat "${cat}"
+                title "Una App aiuta i genitori?"
+                [ tags
+                    {
+                        p "I genitori apprezzano le mHealth Apps."
+                    {
+                        p "Richiedono contatti brevi e ripetuti con informazioni pratiche."
+                    {
+                        p "Un programma eHealth di prevenzione dell'obesità infantile incentrato sui genitori 
+                            \b può fornire supporto per migliorare l'alimentazione del bambino e l'autoefficacia parentale."
+                    {
+                        reviews true
+                        [ items
+                            {
+                                article "A Mobile App, KhunLook, to Support Thai Parents and Caregivers With Child Health Supervision: Development, Validation, and Acceptability Study"
+                                authors "Rosawan Areemit et all"
+                            {
+                                article "An Internet-Based Childhood Obesity Prevention Program (Time2bHealthy) for Parents of Preschool-Aged Children."
+                                authors "Megan L Hammersley et all"
+                                review "Randomized Controlled Trial J Med Internet Res, 2019 Feb 8;21(2):e11964. Doi: 10.2196/11964."
+                            {
+                                article "A systematic evaluation of digital nutrition promotion websites and apps for supporting parents to influence children’s nutrition"
+                                authors "Dorota Zarnowiecki, et all"
+                                review "International Journal of Behavioral Nutrition and Physical Activity volume 17, Article number: 17 (2020)"
+            {
+                name "nascita"
+                cat "${cat}"
+            {
+                name "15 giorni"
+                cat "${cat}"
+            {
+                name "1 mese"
+                cat "${cat}"
+            {
+                name "5 mesi"
+                cat "${cat}"
+            {
+                name "6 mesi"
+                cat "${cat}"
+            {
+                name "9 mesi 1"
+                title "9 mesi/1"
+                cat "${cat}"
+            {
+                name "9 mesi 2"
+                title "9 mesi/2"
+                cat "${cat}"
+            {
+                name "1 anno"
+                cat "${cat}"
+            {
+                name "14 mesi"
+                cat "${cat}"
+            {
+                name "17 m 1"
+                title "17 mesi 1"
+                cat "${cat}"
+            {
+                name "17 m 2"
+                title "17 mesi 2"
+                cat "${cat}"
+            {
+                name "18 mesi"
+                cat "${cat}"
+            {
+                name "19 mesi"
+                cat "${cat}"
+            {
+                name "2a 3a"
+                title "&nbsp;"
+                cat "${cat}"
+                [ textsColumn
+                    {
+                        title "20 mesi"
+                        p "Gli inquinanti alimentari"
+                    {
+                        title "21 mesi"
+                        p "I pericoli in cucina"
+                    {
+                        title "22 mesi"
+                        p "Il bisogno di fibre"
+                    {
+                        title "2 anni"
+                        p "Buone abitudini e strategie per invogliare il tuo bambino a mangiare cibi salutari"
+                    {
+                        title "3 anni e 2 mesi"
+                        p "E se non vuole mangiare frutta e verdura?"
+                [ imagesColumn
+                    "l'orto dei piccoli.jpg"
+                    "mangia i piselli.jpg"
+            {
+                name "4a 5a"
+                title "&nbsp;"
+                cat "${cat}"
+                [ textsColumn
+                    {
+                        title "3 anni e 6 mesi"
+                        p "Cerca di rendere più sani i tuoi piatti preferiti.\n\n
+                            \b Leggere un libro aiuta a mangiare cibi sani."
+                    {
+                        title "4 anni e 6 mesi"
+                        p "Come fare per essere un modello sano?"
+                    {
+                        title "5 anni e 3 mesi"
+                        p "Fra i 5 e i 6 anni sarà molto utile un Bilancio di salute dal tuo pediatra"
+                [ imagesColumn
+                    "musi piatti.jpg"
+                    "è ora di mangiare sano.jpg"
+                    "bminforma.png"
+            {
+                name "5a 9 m"
+                title "5 anni e 9 mesi/1"
+                cat "${cat}"
+            {
+                name "5a 9m 2"
+                title "5 anni e 9 mesi/2"
+                cat "${cat}"
+            {
+                name "6a"
+                title "6 anni"
+                cat "${cat}"
+                [ textsColumn
+                    {
+                        title ""
+                        p "\n\n\n\n\n\n\n\nColtiva un piccolo orto domestico"
+                [ imagesColumn
+                    "l'orto dei bimbi.jpg"
+                    "bimbi orticoltori.jpg"
+            {
+                name "6a 2"
+                title "&nbsp;"
+                cat "${cat}"
+                [ textsColumn
+                    {
+                        title "6 anni"
+                        p "\n\n\n\nDiventa un critico gastronomico...\n\n\n\n\n\n\n\n\n\n
+                            \b I momenti speciali a tavola uniscono la famiglia"
+                [ imagesColumn
+                    
+                    "3 cuochi.jpg"
+                    "momenti speciali a tavola.jpg"
+            {
+                name "Npl 1"
+                title "&nbsp;"
+                cat "${catN}"
+                [ tags
+                    {
+                        p "Proposte di libri e ascolti musicali per le varie età"
+                    {
+                        p "Consigli"
+                    {
+                        ul true
+                        [ items
+                            {
+                                li "Tanti libri di qualità per ogni età"
+                            {
+                                li "Le modalità di lettura"
+                            {
+                                li "Frequentare la biblioteca"
+                            {
+                                li "Frequentare le librerie"
+            {
+                name "NpL 2"
+                title "3 anni e 6 mesi, Papà"
+                cat "${catN}"
+            {
+                name "NpL 3"
+                title "4 anni, Dialogico"
+                cat "${catN}"
+            {
+                name "ToDo"
+                title "&nbsp;"
+                cat "La App BeBa, un lavoro da implementare"
+                [ textsColumn
+                    {
+                        title "&nbsp;"
+                        p_big "Con i feedback dei genitori"
+                    {
+                        title "&nbsp;"
+                        p_big "Con i feedback dei pediatri"
+                [ imagesColumn
+                    "work in progress.png"
+            {
+                name "Fine"
+                cat " "
+                title " "
+                { thanks
+                    title "Grazie"
+                    subtitle "per l'attenzione"
+
+

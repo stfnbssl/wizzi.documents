@@ -1,0 +1,22 @@
+html
+    $
+        var page = {
+            id: 'guide-cosie',
+            section: 'demo',
+            title: 'Guide anticipatorie x Cosie',
+            description: 'Visualizzazione sintetica guide anticipatorie dei Pediatri x progetto Cosie',
+            author: wzCtx.Params.author,
+        };
+        var color = wzCtx.Styles.palette.dark_1
+        var guide = wzCtx.Data.cosie;
+    
+    layouts/demo(&page)
+        
+        div 
+            id preview
+            iframe 
+                id preview-frame
+                class preview-mobile
+                src ./guide-anticipatorie-frame.html
+                frameborder 0
+        

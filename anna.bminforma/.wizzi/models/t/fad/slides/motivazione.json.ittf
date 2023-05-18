@@ -1,0 +1,66 @@
+$group
+
+    $*
+    slide()
+        section( Motivazione intervento
+    *$
+    
+    slide( L’Obesità è una patologia
+        div( thick-left
+            margin 10
+            [ words
+                word( Non è la conseguenza di un disordine alimentare dovuto alla sregolatezza di&nbsp;
+                word-red( individui \”deboli\”
+                word-br( ${dot}
+                word( Ha natura&nbsp; 
+                word-red( epidemica 
+                word-br( &nbsp;con scarsa consapevolezza della popolazione delle comorbilità associate nel tempo${dot}
+                word( Insorge sempre più&nbsp; 
+                word-red( precocemente
+                word-br( ${dot}
+
+        image( right, Obesi complessità.jpg
+    
+    slide( L’obesità è una patologia cronica
+        
+        div( thick-left
+            textSize 2
+            [ words
+                word-red( Eziologia complessa
+                word-br( : fattori genetici-psicologici-tessuto socio ecologico e ambientale${dot}
+                word( Il trattamento deve iniziare il prima possibile e continuare&nbsp; 
+                word-red( longitudinalmente 
+                word-br( &nbsp;durante l'infanzia e l'adolescenza${dot}
+                word-br( &nbsp;, style:biblioref
+                word-br( Il mancato riconoscimento dell'obesità come patologia contribuisce attivamente ad aggravarla${dot}
+                word-br( Operatori sanitari come fonte di bias di peso${dot}
+                word-br( &nbsp;, style:biblioref
+                word-biblioref( Clinical Practice Guideline for the Evaluation and Treatment of Children and Adolescents With Obesity, 
+                    \b Sarah E. Hampl et al; Pediatrics (2023) 151 (2): e2022060640.
+
+        image( top-right, continuità trattamento2.png
+        image( bottom-right, stigma bimba.jpg )
+
+    slide( L’Equità delle cure
+        div( top-left, Rilevanza delle disuguaglianze sociali
+            textSize 2
+            [ paras
+                "I fattori di rischio sono radicati nelle disuguaglianze"
+                "Accesso alle cure"
+                "Esperienze avverse nell'infanzia (ACE)"
+                "Razzismo"
+                
+        div( bottom-left
+            textSize 2
+            [ paras
+                "Lo stigma colpisce bambini e famiglie in base alla razza, etnia, età e genere${dot}"
+        
+        image( right, Equita e uguaglianza.jpg )
+    
+    slide( Aspetti socio-economici
+        div( top-left
+            margin 6
+            [ paras
+                "Gli obiettivi socio economici della collettività sono in conflitto con una sana alimentazione${dot}"
+
+        image( thick-right, portion-distortion2.jpg

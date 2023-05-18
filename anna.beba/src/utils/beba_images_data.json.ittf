@@ -1,0 +1,434 @@
+{
+	[ slides
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/00 BeBa logo.png"
+				{
+					kind "title"
+					text "00 BeBa logo.png"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/00 App Store.png"
+				{
+					kind "title"
+					text "00 App Store.png"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/01 I miei bambini Giovanni.jpg"
+				{
+					kind "title"
+					text "01 I miei bambini Giovanni.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/02 I miei bambini Mia.jpg"
+				{
+					kind "title"
+					text "02 I miei bambini Mia.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/04 aggiungere bambini 2.jpg"
+				{
+					kind "title"
+					text "04 aggiungere bambini 2.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/05 home baby news e guide.jpg"
+				{
+					kind "title"
+					text "05 home baby news e guide.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/03 aggiungere bambini.jpg"
+				{
+					kind "title"
+					text "03 aggiungere bambini.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/06 news.jpg"
+				{
+					kind "title"
+					text "06 news.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/07 guide per età.jpg"
+				{
+					kind "title"
+					text "07 guide per età.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/09 guide per età 4.jpg"
+				{
+					kind "title"
+					text "09 guide per età 4.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/08 guide per età 3.jpg"
+				{
+					kind "title"
+					text "08 guide per età 3.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/09 guide.jpg"
+				{
+					kind "title"
+					text "09 guide.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/10 giochi e movimento.jpg"
+				{
+					kind "title"
+					text "10 giochi e movimento.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/10 Guide per età 5.jpg"
+				{
+					kind "title"
+					text "10 Guide per età 5.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/10 pediatra.jpg"
+				{
+					kind "title"
+					text "10 pediatra.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/10 news.png"
+				{
+					kind "title"
+					text "10 news.png"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/11 affina la ricerca.jpg"
+				{
+					kind "title"
+					text "11 affina la ricerca.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/12 cosa fare.jpg"
+				{
+					kind "title"
+					text "12 cosa fare.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/13 attività.jpg"
+				{
+					kind "title"
+					text "13 attività.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/14 attività dettaglio.jpg"
+				{
+					kind "title"
+					text "14 attività dettaglio.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/15 alimentazione.jpg"
+				{
+					kind "title"
+					text "15 alimentazione.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/16 elenco ricette.jpg"
+				{
+					kind "title"
+					text "16 elenco ricette.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/17 dettaglio ricetta 2.jpg"
+				{
+					kind "title"
+					text "17 dettaglio ricetta 2.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/17 dettaglio ricetta 1.jpg"
+				{
+					kind "title"
+					text "17 dettaglio ricetta 1.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/18 percorso bminforma.jpg"
+				{
+					kind "title"
+					text "18 percorso bminforma.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/24 il cane in testa 2.jpg"
+				{
+					kind "title"
+					text "24 il cane in testa 2.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/25 consiglio ascolto.jpg"
+				{
+					kind "title"
+					text "25 consiglio ascolto.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/beba guida famiglia.png"
+				{
+					kind "title"
+					text "beba guida famiglia.png"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/Affina la ricerca NpL NpM.jpg"
+				{
+					kind "title"
+					text "Affina la ricerca NpL NpM.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/border_left.jpg"
+				{
+					kind "title"
+					text "border_left.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/border_right.jpg"
+				{
+					kind "title"
+					text "border_right.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/Il cane in testa.jpg"
+				{
+					kind "title"
+					text "Il cane in testa.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/i_attività.JPG"
+				{
+					kind "title"
+					text "i_attività.JPG"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/i_alimentazione.JPG"
+				{
+					kind "title"
+					text "i_alimentazione.JPG"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/i_cosa_fare.JPG"
+				{
+					kind "title"
+					text "i_cosa_fare.JPG"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/i_guide.JPG"
+				{
+					kind "title"
+					text "i_guide.JPG"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/i_home.JPG"
+				{
+					kind "title"
+					text "i_home.JPG"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/legenda attività.JPG"
+				{
+					kind "title"
+					text "legenda attività.JPG"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/logo BMInForma (2).jpg"
+				{
+					kind "title"
+					text "logo BMInForma (2).jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/logo npl.png"
+				{
+					kind "title"
+					text "logo npl.png"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/logo npm.png"
+				{
+					kind "title"
+					text "logo npm.png"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/rc2.jpg"
+				{
+					kind "title"
+					text "rc2.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/rc_bella.jpg"
+				{
+					kind "title"
+					text "rc_bella.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/rc1.jpg"
+				{
+					kind "title"
+					text "rc1.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/rc_bimbo.jpg"
+				{
+					kind "title"
+					text "rc_bimbo.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/rc_cane.jpg"
+				{
+					kind "title"
+					text "rc_cane.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/rc_carrozzina.jpg"
+				{
+					kind "title"
+					text "rc_carrozzina.jpg"
+		{
+			[ objects
+				{
+					kind "image"
+					position "full"
+					path "C:/Users/Stefano Bassoli/Pictures/beba/rc_monopattino.jpg"
+				{
+					kind "title"
+					text "rc_monopattino.jpg"

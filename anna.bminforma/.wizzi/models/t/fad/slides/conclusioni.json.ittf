@@ -1,0 +1,154 @@
+$group
+    
+    slide()
+        section( Conclusioni
+
+    slide( L'importanza delle Cure Primarie, Sintesi
+        div( full
+            [ paras
+                "Le cure primarie sono lo standard di cura preferito per i bambini con patologie croniche${dot}"
+                "Il corso naturale dell'obesità prevede risposte al trattamento e successive ricadute${dot}"
+                "Le famiglie hanno a cuore la loro salute e quella dei loro figli e gli operatori sanitari devono ricordare che la presenza di sovrappeso o obesità NON è un'indicazione di cattiva genitorialità${dot}"
+                
+
+        $$ image( right, Trovare immagine.jpg
+
+    slide( Le Difficoltà del Pediatra, Barriere
+        list-rect( Il dilemma obesità tra:, 14% 8% 25% 52%
+            textSize 2
+            [ items
+                "Gravità e ingravescenza"
+                "e la difficoltà ad affrontarla in modo efficace${dot}"
+
+        list-rect( Le Barriere:, 41% 8% 45% 52%
+            textSize 2
+            [ items
+                "Tempo e risorse${dot}"
+                "Conoscenza${dot}"
+                "Consapevolezza${dot}"
+                "Autoefficacia${dot}"
+                "Aspettativa di risultato${dot}"
+                "La sottostima del problema da parte dei genitori${dot}"
+
+        image-rect( dilemma.jpg, 30% 65% 40% 25%
+
+    slide( La formazione necessaria per i Pediatri, Strumenti
+        list( left, Secondo l’AAP deve includere:
+            textSize 2
+            [ items
+                "La base fisiologica sottostante per la disregolazione del peso${dot}"
+                "L'Intervento Motivazionale${dot}"
+                "La distorsione del peso${dot}"
+                "L'impatto sociale ed emotivo dell'obesità sui pazienti${dot}"
+                "La necessità di adattare la gestione ai determinanti sociali della salute che influiscono sul peso e sui risultati relativi al peso${dot}"
+
+        image( right, Trovare immagine.jpg
+
+    slide( La rete dei servizi, Strumenti
+        image( full, Cosie project.png
+            margin 10
+
+
+    slide( La ricerca nelle Cure Primarie, Strumenti
+
+        text-rect( La ricerca sui determinanti alla AUSL RE, 30% 7% 10% 40%
+        text-rect( dummy, 45% 7% 10% 40%
+            text "PRENATAL, BIRTH, AND POSTNATAL MEDIATORS OF MATERNAL EDUCATION LEVEL AND CHILDHOOD OBESITY AT FIVE YEARS"
+        text-rect( dummy, 55% 7% 10% 40%
+            text "A cura di Cure Primarie, Epidemiologia"
+
+        text-rect( Il Trial 2013 su Pediatrics, 15% 50% 10% 45%
+        image-rect( trial clinico pediatrics.jpg, 25% 50% 30% 40%
+
+        text-rect( Il gruppo cocreation, 57% 50% 8% 35%
+        image-rect( Gruppo cocreation.jpg, 65% 50% 30% 40%
+
+
+    slide( Le guide anticipatorie, Strumenti
+
+
+        $*
+        Le guide anticipatorie - immagini
+        *$
+        div( top-left )
+            textSize 2
+            [ paras
+                "Informazioni su normali aspettative di una fascia d'età (o di una malattia) per 
+                    \b fornire supporto ai bilanci di salute e affrontare i problemi prima che insorgano${dot}"
+
+        image( bottom-left, al tuo bimbo fa bene.png
+        image( right, Quando ha 5 mesi.png
+
+    slide( La App BeBa, Strumenti
+
+        $*
+        simbolo beba
+        immagine guide
+        La app beba -immagini
+        mostrare tutti a tavola, la mappa delle opportunità, la dieta del giorno).
+        *$
+        image-rect( BeBa logo.png, 15% 8% 21% 13%
+        div-rect( 40% 4% 50% 30%
+            [ paras
+                "Ricette, attività motoria, giochi, letture e altre indicazioni per un corretto e sano stile di vita a sostegno della genitorialità"
+        image-rect( ricetta.png, 14% 35% 70% 20%
+        image-rect( beba attività.png, 24% 56% 70% 20%
+        image-rect( beba guida famiglia.png, 19% 77% 70% 20%
+
+    slide( Per i Pediatri, Sfide
+
+        div( thick-left
+            textSize 2
+            [ words
+                word-red( Non stigmatizzare
+                word-br( ${dot}
+                word( Sfruttare il potenziale della&nbsp; 
+                word-red( continuità delle cure
+                word-br( ${dot}
+                word( Offrire messaggi chiave&nbsp; 
+                word-red( per le varie età
+                word-br( 
+                    text ", specifici secondo le indicazioni dei criteri di salute${dot}"
+                word( Offrire al genitore gli elementi per formare un’
+                word-red( alleanza terapeutica 
+                word-br( 
+                    text " (curve di crescita, messaggi sulla salute, informazioni per le varie età)${dot}"
+                word( Porre attenzione alla&nbsp; 
+                word-red( sensibilità
+                { 
+                    text ", anche culturale, del paziente${dot}"
+                    br true
+
+        image( top-right, forrest gump.jpg
+
+    $*
+    slide( Per i Pediatri, Sfide
+
+        div( top
+            [ paras
+                "E' importante tenere presente che i pazienti e le famiglie hanno a cuore la loro salute e quella dei loro figli e agli operatori sanitari deve essere ricordato che la presenza di sovrappeso o obesità NON è un'indicazione di cattiva genitorialità"
+        
+        div( bottom
+            [ paras
+                "Ove la diagnosi ne rilevi la necessità intervenire terapeuticamente"
+    *$
+
+
+    slide( Culture for health, Sfide
+
+        div( top-left
+            textSize 2
+            [ paras
+                "La partecipazione attiva e continua ad esperienze culturali ed artistiche promuove [la?]salute e previene le malattie${dot}"
+                "Dobbiamo rendere accessibili queste esperienze alle famiglie più svantaggiate${dot}"
+
+        list( right, Ipotesi [di?] cross over culturali applicati all’Obesità nei ragazzi:
+            textSize 2
+            [ items
+                "Corsi di break-dance e di rap  per i ragazzi ...${dot}"
+                "Un device (per smartphone o indossabile) per incentivare i giovani al movimento e all’impegno in comportamenti sani...${dot}"
+                "La narrazione: lavorare su gruppi di auto aiuto${dot}"
+
+        text-rect( Una scuola di rap, 57% 5% 8% 35%
+        image-rect( rapper climatico.jpg, 65% 5% 31% 38%
+
