@@ -1,0 +1,87 @@
+$group 
+    $params &page
+    meta 
+        charset utf-8
+    meta 
+        name viewport
+        content width=device-width, initial-scale=1, shrink-to-fit=no
+    meta 
+        http-equiv X-UA-Compatible
+        content IE=edge,chrome=1
+    meta
+        name description
+        content ${ page.description }
+    meta 
+        name author
+        content ${ page.author }
+    meta 
+        name generator
+        content Wizzi v0.7.1
+
+    @title ${ page.title }
+    
+    link 
+        rel shortcut icon
+        href ${ wzCtx.BaseURL }${ wzCtx.Params.favicon }
+    $if wzCtx.Features.useBootstrap
+        link 
+            rel stylesheet
+            href https://stackpath.bootstrapcdn.com/bootstrap/${wzCtx.Features.bootstrap.version}/css/bootstrap.min.css
+            @integrity sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T
+            crossorigin anonymous
+    
+    $if wzCtx.Features.bootstrap.useSlider
+        link
+            rel stylesheet
+            href https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.6.1/css/bootstrap-slider.min.css
+            crossorigin anonymous
+    
+    $if wzCtx.Features.useMaterialKit
+        $ 
+            var assetsBaseUri = wzCtx.Features.materialKit.assetsBaseUri
+        link 
+            href ${assetsBaseUri}/assets/css/material-kit.css?v=2.0.5
+            rel stylesheet
+
+    $if wzCtx.Features.useFontAwesome
+        link 
+            href https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css
+            rel stylesheet
+    
+    $if wzCtx.Features.useGoogleFonts
+        link
+            rel stylesheet
+            href https://fonts.googleapis.com/css?family=${wzCtx.Features.googleFonts.families}
+    
+    $if wzCtx.Styles.css
+        link 
+            rel stylesheet
+            href ${ wzCtx.BaseURL }css/styles.css
+    
+    $if page.css
+        link 
+            rel stylesheet
+            href ${ wzCtx.BaseURL }css/${page.css}
+    
+    $if wzCtx.Features.useWebFontLoader
+        js https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js
+        script
+            set WebFontConfig =
+                { 
+                    $foreach prov in wzCtx.Features.webFontLoader.providers
+                        { ${prov.name}
+                            [ families
+                                $foreach fami in prov.families
+                                    @ '${fami}'
+            iife 
+                var wf = document.createElement('script')
+                set wf.src =
+                    op+ 
+                        iif 'https:' == document.location.protocol
+                            then 'https'
+                            else 'http'
+                        + '://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js'
+                set wf.type = 'text/javascript'
+                set wf.async = 'true'
+                var s = document.getElementsByTagName('script')[0]
+                _ s.parentNode.insertBefore(wf, s)

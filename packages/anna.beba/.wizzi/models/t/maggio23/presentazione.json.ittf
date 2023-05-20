@@ -1,0 +1,267 @@
+$group
+
+    { maggio23
+        [ slides
+            slide( Che cosa è BeBa?
+                image-rect( 00 BeBa logo.png, 40% 15% 20% 13%
+                div-rect( 30% 35% 40% 45%
+                    [ paras
+                        "È un’applicazione nata da un lavoro di co-creazione, che si pone l’obiettivo 
+                            \b di aiutare le famiglie della provincia di Reggio Emilia 
+                            \b ad adottare stili di vita salutari per i propri figli${dot}"
+                text-rect( www.ausl.re.it - > Home -> Dedicato a... -> Percorsi -> Bambini -> App BeBa, 90% 15% 10% 70%
+
+            slide( Composizione consulta
+
+                text-rect( Gli enti che hanno partecipato alla co-creation di BeBa, 20% 15% 8% 70%
+
+            slide( Cosa trovo in BeBa?
+
+			    $
+                    var ihw = 15;
+
+                image-rect( i_home.jpg, ${5+ihw*1}% 20% ${ihw-2}% 10%
+                text-rect( &nbsp;, ${5+ihw*1}% 30% ${ihw-2}% 50%
+                    text "dati generali del bambino, news e guide in evidenza" 
+                image-rect( i_guide.jpg, ${5+ihw*2}% 20% ${ihw-2}% 10%
+                text-rect( consigli per i genitori riguardo la crescita dei bambini, ${5+ihw*2}% 30% ${ihw-2}% 50%
+                image-rect( i_cosa_fare.jpg, ${5+ihw*3}% 20% ${ihw-2}% 10%
+                text-rect( come comportarsi in caso di malattia del bambino o di incidenti, ${5+ihw*3}% 30% ${ihw-2}% 50%
+                image-rect( i_attività.jpg, ${5+ihw*4}% 20% ${ihw-2}% 10%
+                text-rect( &nbsp;, ${5+ihw*4}% 30% ${ihw-2}% 50%
+                    text "mappa delle opportunità di attività fisica, motoria e sportiva"
+                image-rect( i_alimentazione.jpg, ${5+ihw*5}% 20% ${ihw-2}% 10%
+                text-rect( proposte di ricette, ${5+ihw*5}% 30% ${ihw-2}% 50%
+
+            slide( Installazione sul telefonino
+                image-rect( 00 App Store.png, 40% 10% 20% 20%
+                text-rect( La app BeBa può essere installata su smartphone Apple o Android${dot}", 30% 40% 20% 20%
+                text-rect( Cercate "BeBa" su App Store o Google Play e cliccate su questo logo${dot}", 50% 40% 20% 20%
+                image-rect( 00 BeBa logo.png, 40% 70% 20% 13%
+            
+            slide( Aggiungere bambini
+                image( thin-left, 04 aggiungere bambini 2.jpg
+                div( thick-right
+                    [ paras
+                        "Eseguita l'installazione di BeBa"
+                        "si inseriscono i dati dei nostri bambini di cui vogliamo seguire la crescita${dot}"
+            
+            slide( I miei bambini
+                image( thin-left, 01 I miei bambini Giovanni.jpg
+                div( thick-right
+                    [ paras
+                        "Possiamo inserire i nostri figli${dot}"
+                        "Lo possono fare sia i genitori che i nonni${dot}"
+            
+            slide( I miei bambini
+                image( thin-left, 02 I miei bambini Mia.jpg
+                div( thick-right
+                    textSize 2
+                    [ paras
+                        "I dati inseriti rimangono patrimonio di chi li utilizza${dot}"
+                        "&nbsp;"
+                        "Cosa sono i punti?"
+                        "Si accumulano facendo cose che migliorano la nostra salute come ad esempio: faccio un giro in bicicletta, 
+                            \b partecipo alla camminata del mio quartiere, mangio pasta e ceci etc.."
+                        "E’ una gara in famiglia da ingaggiare per stimolarci a vicenda: possiamo decidere, ad esempio, 
+                            \b che quando arriviamo a 20 punti c’è un premio o si fa una gita tutti assieme o si fa un pic-nic in collina etc.."
+            
+            slide( Home - Baby news e guide
+                image( thin-left, 05 home baby news e guide.jpg
+                div( thick-right
+                    [ paras
+                        "Nella Home troviamo una lista di news e guide in evidenza${dot}"
+                        "Inoltre, in basso, troviamo tutti i bottoni (pulsanti) con le icone delle funzioni che
+                            \b possiamo utilizzare: Guide, Cosa fare, Alimentazione e Attività${dot}"
+                image-rect( rc_bella.jpg, 20% 80% 20% 12%
+                image-rect( rc_altalena.jpg, 68% 80% 20% 12%
+            
+            slide( Le news
+                image( thin-left, 06 news.jpg
+                div( thick-right
+                    [ paras
+                        "Le news sono temporanee e offrono indicazioni su attività o proposte di intrattenimento, culturali ..."
+                image-rect( rc_testa_uovo.jpg, 20% 80% 20% 12%
+                image-rect( rc_monopattino_2.jpg, 68% 80% 20% 12%
+            
+            slide( Le news
+                image( thin-left, 10 news.png
+                div( thick-right
+                    [ paras
+                        "... di sana alimentazione, di buona lettura etc.."
+                        "&nbsp;"
+                        "che possono essere sfruttate dalle famiglie${dot}"
+                image-rect( rc_cane.jpg, 20% 80% 20% 12%
+            
+            slide( Guide per età
+                image( thin-left, 07 guide per età.jpg
+                div( thick-right
+                    [ paras
+                        "Le guide offrono spunti di riflessione e proposte concrete per i genitori su numerosi temi da affrontare in base all’età dei propri bambini${dot}"
+                image-rect( rc_bimbo.jpg, 20% 80% 20% 12%
+
+            slide( Guide: categoria Famiglia
+                image( thin-left, 08 guide per età 3.jpg
+                div( thick-right
+                    [ paras
+                        "Questa guida dei 2 anni ci parla del gioco, delle faccende domestiche, di lettura e altre attività ..."
+                image-rect( rc_monopattino.jpg, 20% 80% 20% 12%
+
+            slide( Guide: categoria Famiglia
+                image( thin-left, 09 guide per età 4.jpg
+                div( thick-right
+                    [ paras
+                        "... per rendere il nostro bambino sempre più autonomo e partecipe della vita famigliare${dot}"
+                image-rect( rc_monopattino.jpg, 20% 80% 20% 12%
+            
+            slide( Affina la ricerca
+                image( thin-left, 11 affina la ricerca.jpg
+                div( thick-right
+                    [ paras
+                        "Se vogliamo seguire le tappe di sviluppo dalla nascita all’età del nostro bambino possiamo andare 
+                            \b sulle 3 lineette in alto a destra e seguire una precisa categoria: in questo caso 'Bambino'${dot}"
+                image-rect( rc_cane.jpg, 20% 80% 20% 12%
+                image-rect( rc_monopattino_2.jpg, 68% 80% 20% 12%
+
+            slide( Guide: categoria Bambino
+                image( thin-left, Bambino - nuove competenze.png
+                div( thick-right
+                    [ paras
+                        "La Guida bambino ci parla dello sviluppo e delle competenze e offre il suo punto di vista su numerose questioni."
+                        "Ogni bimbo ha i suoi tempi e alcuni sviluppano prima alcune abilità e più tardi altre, l’importante è sostenere i vari apprendimenti${dot}"
+                image-rect( rc_carrozzina.jpg, 20% 80% 20% 12%
+                image-rect( rc_testa_uovo.jpg, 74% 80% 20% 12%
+
+            slide( Guide: categoria Tutti a tavola
+                image( thin-left, 10 Guide per età 5.jpg
+                div( thick-right
+                    [ paras
+                        "Nella categoria Tutti a tavola si affronta il tema dello sviluppo del gusto 
+                            \b con numerosi suggerimenti per rendere piacevole e coinvolgente il pasto sano in famiglia${dot}"
+                image-rect( rc_bella.jpg, 20% 80% 20% 12%
+                image-rect( rc_carrozzina.jpg, 68% 80% 20% 12%
+
+            slide( Guide: categoria Giochi e movimento
+                image( thin-left, 10 Giochi e movimento.jpg
+                div( thick-right
+                    [ paras
+                        "In Gioco e movimento ad ogni età troviamo proposte per attività da svolgere con i nostri bambini${dot}"
+                image-rect( rc_monopattino.jpg, 20% 80% 20% 12%
+                image-rect( rc_cane.jpg, 68% 80% 20% 12%
+
+            slide( Guide: categoria Pediatra
+                image( thin-left, 10 Pediatra.jpg
+                div( thick-right
+                    [ paras
+                        "Pediatra e Temi caldi offrono consigli per la salute, ma anche affrontano temi difficili come 
+                            \b i problemi del pianto, del sonno, dei capricci e tanto altro${dot}"
+                image-rect( rc_bimbo.jpg, 20% 80% 20% 12%
+                image-rect( rc_testa_uovo.jpg, 68% 80% 20% 12%
+
+            slide( Guide: categoria NpL e NpM
+                image( thin-left, Affina la ricerca NpL NpM.jpg
+                div( thick-right
+                    [ paras
+                        "BeBa offre anche consigli di lettura e ascolto musicale adatto alle varie età${dot}"
+                        "Selezioniamo la categoria NpL-NpM"
+                image-rect( rc_cane.jpg, 20% 80% 20% 12%
+                image-rect( rc_bella.jpg, 68% 80% 20% 12%
+
+            slide( Guida alla lettura
+                image( thin-left, Il cane in testa.jpg
+                div( thick-right
+                    [ paras
+                        "I libri consigliati da BeBa sono frutto delle ricerche bibliografiche
+                            \b del progetto Nati per Leggere${dot}"
+                image-rect( logo npl.png, 20% 80% 20% 12%
+
+            slide( Il cane in testa.jpg
+                image( thin-left, 24 il cane in testa 2.jpg
+                list( thick-right, Nati per Leggere è un progetto di
+                    textSize 2
+                    [ items
+                        "Associazione Culturale Pediatri (ACP)"
+                        "Associazione Italiana Biblioteche (AIB)"
+                        "Centro per la Salute del Bambino (CSB onlus)"
+                image-rect( logo npl.png, 20% 80% 20% 12%
+            
+            slide( 25 consiglio ascolto.jpg
+                image( thin-left, 25 consiglio ascolto.jpg
+                div( thick-right
+                    [ paras
+                        "I brani musicali consigliati da BeBa sono frutto delle ricerche 
+                            \b del progetto Nati per la Musica${dot}"
+                image-rect( logo npm.png, 20% 80% 20% 12%
+            
+            $$ se si riesce inserirei anche una immagine di NpL e NpM
+
+            slide( Cosa fare
+                image( thin-left, 12 cosa fare.jpg
+                div( thick-right
+                    [ paras
+                        "La sezione Cosa fare offre consigli su cosa fare in caso di malessere del bambino
+                            \b o incidente domestico${dot}"
+                image-rect( rc_testa_uovo.jpg, 20% 80% 20% 12%
+                image-rect( rc_carrozzina.jpg, 68% 80% 20% 12%
+
+            slide( Attività.jpg
+                image( thin-left, 13 attività.jpg
+                div( top-right
+                    [ paras
+                        "La sezione Attività offre una mappa delle opportunità con numerose proposte 
+                            \b su dove fare attività fisica con i nostri bambini ..."
+                image( bottom-right, legenda attività.JPG
+
+            
+            slide( 14 attività dettaglio.jpg
+                image( thin-left, 14 attività dettaglio.jpg
+                div( thick-right
+                    [ paras
+                        "... geolocalizzandosi, è possibile visualizzare alcune proposte di attività fisica e sportiva vicino a noi${dot}"
+                image-rect( rc_altalena.jpg, 20% 80% 20% 12%
+                image-rect( rc_monopattino_2.jpg, 68% 80% 20% 12%
+
+            slide( Alimentazione
+                image( thin-left, 15 alimentazione.jpg
+                list( thick-right, Nella sezione Alimentazione si trovano tante ricette di stagione suddivise in
+                    [ items
+                        "Primi piatti"
+                        "Secondi piatti"
+                        "Contorni"
+                image-rect( rc_cane.jpg, 20% 80% 20% 12%
+                image-rect( rc_altalena_2.jpg, 68% 80% 20% 12%
+
+            slide( Elenco ricette
+                image( thin-left, 16 elenco ricette.jpg
+                div( thick-right
+                    [ paras
+                        "Scegliendo un tipo di ricetta, si apre un elenco di proposte${dot}"
+                image-rect( rc_bella.jpg, 20% 80% 20% 12%
+                image-rect( rc_altalena.jpg, 68% 80% 20% 12%
+                        
+            
+            slide( Dettaglio ricetta
+                image( thin-left, 17 dettaglio ricetta 1.jpg
+                div( thick-right
+                    [ paras
+                        "Ad ogni ricetta è associato un punteggio${dot}"
+                image-rect( rc_bimbo.jpg, 20% 80% 20% 12%
+                image-rect( rc_bella.jpg, 68% 80% 20% 12%
+            
+            slide( Dettaglio ricetta
+                image( thin-left, 17 dettaglio ricetta 2.jpg
+                div( thick-right
+                    [ paras
+                        "Si possono anche salvare le ricette preferite${dot}"
+                image-rect( rc_carrozzina.jpg, 20% 80% 20% 12%
+                image-rect( rc_cane.jpg, 68% 80% 20% 12%
+            
+            slide( Percorso BMInForma (Bambini molto in forma) )
+                image( thin-left, 18 percorso bminforma.jpg
+                div( thick-right
+                    [ paras
+                        "Se il bambino partecipa al programma pediatrico Bambini molto In Forma (BmInForma),
+                            \b il genitore può accedere da BeBa ai dati sullo stato di avanzamento del trattamento,
+                            \b utilizzando il proprio SPID come codice di accesso"
+                image-rect( logo BMInForma (2).jpg, 20% 80% 20% 12%
+

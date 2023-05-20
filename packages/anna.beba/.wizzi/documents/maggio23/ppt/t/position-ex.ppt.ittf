@@ -1,0 +1,171 @@
+$group
+    $params &obj, prefix|@@null
+
+    $
+        var prepend = prefix == null ? '' : prefix + '-';
+        var position = obj.position ? prepend + obj.position : 'full';
+        var cMarginV = obj.margin ? obj.margin : 3;
+        var cMarginH = obj.margin ? obj.margin : 8;
+        var cTitleBarHeight = 10;
+        var cTitleParaHeight = 8;
+        var cTop = cTitleBarHeight + (cMarginV * 2);
+        var cLeft = cMarginH;
+        var cBottom = 100 - cMarginV;
+        var cRight = 100 - cMarginH;
+        var cWidth = cRight - cLeft;
+        var cHeight = cBottom - cTop;
+        var cHMiddle = cLeft + (cWidth / 2);
+        var cHThickMiddle = cLeft + ((cWidth / 3) * 2);
+        var cHThinMiddle = cLeft + (cWidth / 3);
+        var cVMiddle = cTop + (cHeight / 2);
+        var cMidHeight = (cHeight / 2) - cMarginV;
+        var cMidWidth = (cWidth / 2) - cMarginH;
+        var cThinMidWidth = (cWidth / 3) - (cMarginH / 2);
+        var cThickMidWidth = ((cWidth / 3)*2) - cMarginH - 3;
+        _.log("position", position, cTop, cLeft, cBottom, cRight, cVMiddle, cHMiddle);
+
+    $if position == 'left'
+
+        y ${cTop}%
+        x ${cLeft}%
+        h ${cHeight}%
+        w ${cMidWidth - cMarginH}%
+
+    $if position == 'thin-left'
+
+        y ${cTop}%
+        x ${cLeft}%
+        h ${cHeight}%
+        w ${cThinMidWidth - cMarginH + 8}%
+
+    $if position == 'thick-left'
+
+        y ${cTop}%
+        x ${cLeft}%
+        h ${cHeight}%
+        w ${cThickMidWidth - cMarginH}%
+
+    $if position == 'top-left'
+
+        y ${cTop}%
+        x ${cLeft}%
+        h ${cMidHeight}%
+        w ${cMidWidth}%
+
+    $if position == 'bottom-left'
+
+        y ${cVMiddle + cMarginV}%
+        x ${cLeft}%
+        h ${cMidHeight}%
+        w ${cMidWidth}%
+
+    $if position == 'right'
+
+        y ${cTop}%
+        x ${cHMiddle + cMarginH}%
+        h ${cHeight}%
+        w ${cMidWidth}%
+
+    $if position == 'thin-right'
+
+        y ${cTop}%
+        x ${cHThickMiddle + cMarginH}%
+        h ${cHeight}%
+        w ${cThinMidWidth}%
+
+    $if position == 'thick-right'
+
+        y ${cTop}%
+        x ${cHThinMiddle + (cMarginH / 2)}%
+        h ${cHeight}%
+        w ${cThickMidWidth}%
+
+    $if position == 'top-right'
+
+        y ${cTop}%
+        x ${cHMiddle + cMarginH}%
+        h ${cMidHeight}%
+        w ${cMidWidth}%
+        
+    $if position == 'bottom-right'
+
+        y ${cVMiddle + cMarginV}%
+        x ${cHMiddle + cMarginH}%
+        h ${cMidHeight}%
+        w ${cMidWidth}%
+
+    $if position == 'title-right'
+
+        y ${cTop}%
+        x ${cHMiddle + cMarginH}%
+        h ${cTitleParaHeight}%
+        w ${cMidWidth}% 
+
+    $if position == 'title-thin-right'
+
+        y ${cTop}%
+        x ${cHThickMiddle + cMarginH}% 
+        h ${cTitleParaHeight}%
+        w ${cThinMidWidth}% 
+
+    $if position == 'title-thick-right'
+
+        y ${cTop}%
+        x ${cHThinMiddle + (cMarginH / 2)}% 
+        h ${cTitleParaHeight}%
+        w ${cThickMidWidth}% 
+
+    $if position == 'titled-right'
+
+        y ${cTop + cTitleParaHeight + cMarginV}% 
+        x ${cHMiddle + cMarginH}% 
+        h ${cHeight - (cTitleParaHeight + cMarginV)}% 
+        w ${cMidWidth}% 
+
+    $if position == 'titled-thin-right'
+
+        y ${cTop + cTitleParaHeight + cMarginV}% 
+        x ${cHThickMiddle + cMarginH}% 
+        h ${cHeight - (cTitleParaHeight + cMarginV)}% 
+        w ${cThinMidWidth}% 
+
+    $if position == 'titled-thick-right'
+
+        y ${cTop + cTitleParaHeight + cMarginV}% 
+        x ${cHThinMiddle + (cMarginH / 2)}% 
+        h ${cHeight - (cTitleParaHeight + cMarginV)}% 
+        w ${cThickMidWidth}% 
+
+    $if position == 'top'
+        y ${cTop}% 
+        x ${cLeft}% 
+        h ${cHeight / 2}% 
+        w ${cWidth}% 
+
+    $if position == 'bottom'
+
+        y ${cVMiddle + cMarginV}% 
+        x ${cLeft}% 
+        h ${cHeight / 2}% 
+        w ${cWidth}% 
+
+    $if position == 'full'
+
+        y ${cTop}%
+        x ${cLeft}%
+        h ${cHeight}%
+        w ${cWidth}%
+
+    $if position == 'title-full'
+
+        y ${cTop}%
+        x ${cLeft}%
+        h ${cTitleParaHeight}%
+        w ${cWidth}% 
+
+    $if position == 'titled-full'
+
+        y ${cTop + cTitleParaHeight + cMarginV}%
+        x ${cLeft}%
+        h ${cHeight - (cTitleParaHeight + cMargincMargin)}% 
+        w ${cWidth}% 

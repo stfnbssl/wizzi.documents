@@ -1,0 +1,148 @@
+wfjob anna.beba/job
+	
+    $
+        var jobCtx = {
+            ittf_models_folder: path.join(__dirname, 'models'),
+            ittf_root_folder: path.join(__dirname, 'root'),
+            ittf_src_folder: path.join(__dirname, 'src'),
+            ittf_documents_folder: path.join(__dirname, 'documents'),
+            dest_folder: path.join(__dirname, '..'),
+            job_model: 'wzCtx'
+        }
+
+    model ${jobCtx.job_model}
+        schema json
+        src ${jobCtx.ittf_models_folder}/wzCtx.json.ittf
+
+    $foreach item in ['demo-5-2019','pres-3-2021']
+        model ${item}
+            schema json
+            src ${jobCtx.ittf_models_folder}/${item}.json.ittf
+
+    line ittf-models
+        cwd-folder ${jobCtx.ittf_models_folder}
+        wfjobs(any_json, &jobCtx)
+
+	line ittf-root
+        cwd-folder ${jobCtx.ittf_root_folder}
+        dest-folder ${jobCtx.dest_folder}/
+
+		wfjobs(any_js, &jobCtx)
+		wfjobs(any_json, &jobCtx)
+		wfjobs(any_html, &jobCtx)
+		wfjobs(any_md, &jobCtx)
+		wfjobs(any_text, &jobCtx)
+		wfjobs(.gitignore, &jobCtx)
+
+	line ittf-src
+        cwd-folder ${jobCtx.ittf_src_folder}
+        dest-folder ${jobCtx.dest_folder}/src
+
+		wfjobs(any_js, &jobCtx)
+
+	line ittf-documents
+        cwd-folder ${jobCtx.ittf_documents_folder}
+        dest-folder ${jobCtx.dest_folder}/documents
+
+		wfjobs(any_js, &jobCtx)
+        wfjobs(any_html, &jobCtx)
+        wfjobs(any_css, &jobCtx)
+        wfjobs(any_ppt, &jobCtx)
+        wfjobs(any_pdf, &jobCtx)
+        wfjobs(any_plain, &jobCtx, json)
+		artifact any_ittf_inside___copy
+			src ./**/*__copy/**/*.ittf
+			extension ittf
+
+	production
+		dest-folder ${jobCtx.dest_folder}
+        line-ref ittf-models
+        line-ref ittf-root
+		line-ref ittf-src
+        line-ref ittf-documents
+
+    $*
+    $
+        var ittf_models_folder     = path.join(__dirname, 'models');
+        var ittf_src_folder        = path.join(__dirname, 'src');
+        var ittf_root_folder       = path.join(__dirname, 'root');
+        var dest_folder            = path.join(__dirname, '..');
+  
+    model beba_5_2019
+        schema json
+        src ${ittf_models_folder}/beba-5-2019.json.ittf
+
+    model beba_3_2021
+        schema json
+        src ${ittf_models_folder}/beba-3-2021.json.ittf
+
+    line models
+		cwd-folder ${ittf_models_folder}
+		artifact json modules
+			src ./**/*.json.ittf
+			schema json
+			generator json/document
+			extension json
+            model-ref site
+                export-name site
+
+    line src
+		cwd-folder ${ittf_src_folder}
+
+		artifact html documents
+			src ./**/*.html.ittf
+			schema html
+			generator html/document
+			extension html
+            model-ref site
+                export-name site
+
+		artifact css style sheets
+			src ./**/*.css.ittf
+			schema css
+			generator css/document
+			extension css
+            model-ref site
+                export-name site
+
+		artifact javascript modules
+			src ./**/*.js.ittf
+			schema js
+			generator js/module
+			extension js
+            model-ref site
+                export-name site
+
+		artifact pdf documents
+			src ./**/*.pdf.ittf
+			schema pdf
+			generator pdf/document
+			extension makepdf.js
+            model-ref site
+                export-name site
+
+		artifact ppt documents
+			src ./**/*.ppt.ittf
+			schema ppt
+			generator ppt/document
+			extension makeppt.js
+            model-ref site
+                export-name site
+
+    line root
+		cwd-folder ${ittf_root_folder}
+
+		artifact json documents
+			src ./**/*.json.ittf
+			schema json
+			generator json/document
+			extension json
+            model-ref site
+                export-name site
+
+    production
+		dest-folder ${dest_folder}
+		line-ref models
+        line-ref src
+        line-ref root
+    *$        
