@@ -14,19 +14,22 @@ wfjob anna.bminforma/job
         schema json
         src ${jobCtx.ittf_models_folder}/wzctx.json.ittf
 
-    $foreach item in ['fad','first','text']
-        model ${item}
+    $if false
+        model first
             schema json
-            src ${jobCtx.ittf_models_folder}/${item}.json.ittf
-
-    model fad
-        schema json
-        src ${jobCtx.ittf_models_folder}/fad.json.ittf
+            src ${jobCtx.ittf_models_folder}/slides/lab/first.json.ittf
+        model text
+            schema json
+            src ${jobCtx.ittf_models_folder}/slides/lab/text.json.ittf
+    
+    $foreach item in ['fad','rel_13settembre']
+        model ccm2022_${item}
+            schema json
+            src ${jobCtx.ittf_models_folder}/slides/ccm2022/${item}/index.json.ittf
 
     line ittf-models
         cwd-folder ${jobCtx.ittf_models_folder}
         wfjobs(any_json, &jobCtx)
-
 
 	line ittf-root
         cwd-folder ${jobCtx.ittf_root_folder}
@@ -45,22 +48,32 @@ wfjob anna.bminforma/job
 
 		wfjobs(any_js, &jobCtx)
 
-	line ittf-documents
-        cwd-folder ${jobCtx.ittf_documents_folder}
-        dest-folder ${jobCtx.dest_folder}/documents
+	line ittf-documents-lab
+        cwd-folder ${jobCtx.ittf_documents_folder}/lab
+        dest-folder ${jobCtx.dest_folder}/documents/lab
 
 		wfjobs(any_js, &jobCtx)
         wfjobs(any_ppt, &jobCtx)
-            model-ref fad
-                export-name fad
             model-ref first
                 export-name first
             model-ref text
                 export-name text
+
+	line ittf-documents-ccm2022
+        cwd-folder ${jobCtx.ittf_documents_folder}/ccm2022
+        dest-folder ${jobCtx.dest_folder}/documents/ccm2022
+
+		wfjobs(any_js, &jobCtx)
+        wfjobs(any_ppt, &jobCtx)
+            model-ref ccm2022_fad
+                export-name fad
+            model-ref ccm2022_rel_13settembre
+                export-name ccm2022_rel_13settembre
 
 	production
 		dest-folder ${jobCtx.dest_folder}
         line-ref ittf-models
         line-ref ittf-root
 		line-ref ittf-src
-        line-ref ittf-documents
+        $$ line-ref ittf-documents-lab
+        line-ref ittf-documents-ccm2022

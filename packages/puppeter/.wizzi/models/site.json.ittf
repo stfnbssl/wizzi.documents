@@ -1,0 +1,37 @@
+{
+    $
+        var baseURL = ".";
+        // var baseURL = "http://127.0.0.1:5500/philos";
+
+    baseURL "${baseURL}"
+    assetsURL "${baseURL}/assets"
+    jsonURL "${baseURL}/json"
+    languageCode "it-it"
+
+    { Params
+        name "PuppeterResources"
+        description "Risorse varie per progetto Puppeter"
+        author "Stefano Bassoli"
+        email "stfn.bssl@gmail.com"
+        phone "---"
+        address "---"
+        year 2020
+        logoText "by Stefano"
+
+    { Features
+    
+    { Styles
+        { palette
+            { blockquote
+                background "#fff"
+                color "#00CC8F"
+            { dark_1
+                backStrong "#463A30"
+                backMedium "#827769"
+                foreSofter "#FFFFFF"
+                foreSoft "#DED9D8"
+                foreMedium "#95857A"
+                foreMediumSoft "#9C7F5B"
+                foreMediumStrong "#7D5F42"    
+    
+    { Data

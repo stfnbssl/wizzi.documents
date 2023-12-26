@@ -1,0 +1,133 @@
+module
+    kind es6
+
+    # useful https://api.jquery.com/category/selectors/
+
+    $
+        var author = "meyssant";
+
+    const fs = require('fs')
+    const path = require('path')
+    const puppeteer = require('puppeteer')
+    const stringify = require('json-stringify-safe') 
+    const wizziUtils = require('wizzi-utils')
+    const verify = wizziUtils.verify
+    const file = wizziUtils.file
+
+    var meyssantUrl = "https://www.voltairenet.org/auteur29.html?lang=en&debut_articles=0#pagination_articles"
+    
+    var username = ""
+    var psw = ""
+
+    var author = "${author}"
+    var extractNum = 3
+    var pageFrom = (extractNum - 1) * 5 + 1
+    var pageTo = extractNum * 5
+
+    async-function start
+
+        const browser
+            await 
+                _ puppeteer.launch
+                    { 
+                        @ headless true
+
+        const page
+            await
+                _ browser.newPage
+
+        const result
+            {
+                [ articles
+
+        async-function extract
+            param article_index
+            
+            if article_index > pageTo
+                return
+                    _ terminate
+            
+            const url = meyssantUrl.replace('=0#', '=' + article_index * 15 + '#')
+            log 'url', url
+            
+            await 
+                _ page.goto(url)
+
+            log 'ok'
+
+            const evaluationResult
+                await 
+                    _ page.evaluate
+                        => 
+                            var author = "${author}"
+                            try
+                                var evaluationResult
+                                    {
+                                        [ dataList
+                                        [ messages
+                                # var links = document.querySelectorAll('div.one-mot > div.one-mot-titre > a')
+                                var links = document.querySelectorAll('div.one-mot')
+                                foreach link in links
+                                    var divTitre = link.querySelector('div.one-mot-titre')
+                                    var aLink = link.querySelector('a')
+                                    var aText = link.querySelector('div.one-mot-texte > a')
+                                    var divDate = link.querySelector('div.one-mot-date')
+                                    _ evaluationResult.dataList.push
+                                        {
+                                            @ link aLink.href
+                                            @ title divTitre.innerText
+                                            @ text aText.innerText
+                                            @ author author
+                                            @ date dateFromDiv(divDate)
+                            catch ex         
+                                _ evaluationResult.messages.push
+                                    @ "Error: " + ex.message
+                            function dateFromDiv
+                                param divDate
+                                if !divDate
+                                    return null
+                                var ss = divDate.innerText.split('|')
+                                if ss.length == 2
+                                    var d = ss[1].trim()
+                                    set d = d.replace(' JANUARY ','/01/')
+                                    set d = d.replace(' FEBRUARY ','/02/')
+                                    set d = d.replace(' MARCH ','/03/')
+                                    set d = d.replace(' APRIL ','/04/')
+                                    set d = d.replace(' MAY ','/05/')
+                                    set d = d.replace(' JUNE ','/06/')
+                                    set d = d.replace(' JULY ','/07/')
+                                    set d = d.replace(' AUGUST ','/08/')
+                                    set d = d.replace(' SEPTEMBER ','/09/')
+                                    set d = d.replace(' OCTOBER ','/10/')
+                                    set d = d.replace(' NOVEMBER ','/11/')
+                                    set d = d.replace(' DECEMBER ','/12/')
+                                    return d
+                                else
+                                    return null
+                            return evaluationResult 
+
+            log 'evaluationResult', evaluationResult
+            foreach article in evaluationResult.dataList
+                _ result.articles.push
+                    @ article
+            _ extract
+                @ article_index + 1
+        
+        _ extract
+            @ pageFrom
+        
+        function terminate
+            _ browser.close()
+
+            _ file.write
+                _ path.join
+                    @ __dirname
+                    @ "extracted"
+                    @ author + '.' + pageFrom + '_' + pageTo + '.json'
+                _ stringify
+                    @ result
+                    @ null
+                    @ 4
+
+
+    + (async function() { await start(); console.log('DONE');}())

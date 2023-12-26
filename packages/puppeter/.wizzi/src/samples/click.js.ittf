@@ -1,0 +1,26 @@
+module
+    kind es6
+
+    # useful https://api.jquery.com/author/selectors/
+
+    $
+        var md = {
+            startPage: 'page',
+            startUrl: null,
+        }
+    const url = "https://www.limesonline.com/edicola/funnel/login.jsp"
+
+    start(&md)
+        await page.goto(url, {waitUntil: 'networkidle0'})
+        const selector = 'button.iubenda-cs-accept-btn'
+        const selectorRes = '#gigya-login-form > div.gigya-layout-row.with-divider > div.gigya-layout-cell.responsive.with-site-login > div.gigya-composite-control.gigya-composite-control-submit > input'
+        var el = await page.waitForSelector(selector, { timeout: 1000 })
+        await page.click(selector)
+        # await page.click(el._remoteObject.description)
+        # await page.waitForNavigation({ timeout: 2500 })
+        # await page.waitForTimeout(2500)
+        await page.waitForSelector(selectorRes)
+        # await page.click(el._remoteObject.description)
+        # await page.waitForNavigation({ timeout: 2500 })
+        await page.screenshot({ path: 'click.png' })
+        _ terminate

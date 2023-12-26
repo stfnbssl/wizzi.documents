@@ -1,0 +1,17 @@
+$group
+    $params title, num
+
+    section ${num}
+        page 
+            margins( 1.2 )
+        p
+            + ${num}.
+                font Garamond
+                size ${18*2}
+        p
+            spacing
+                after convertInchesToTwip(1.5)
+            + ${title}
+                font Garamond
+                size ${18*2}
+        $hook

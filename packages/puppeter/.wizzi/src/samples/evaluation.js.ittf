@@ -1,0 +1,48 @@
+module
+    kind es6
+
+    # useful https://api.jquery.com/author/selectors/
+
+    $
+        var md = {
+            startPage: 'page',
+            startUrl: null,
+        }
+    const url = "https://www.limesonline.com/edicola/funnel/login.jsp"
+
+    start(&md)
+        await page.goto(url)
+        const selectorClick = 'button.iubenda-cs-accept-btn'
+        await page.click(selectorClick)
+        const evaluationResult
+            await 
+                _ page.evaluate
+                    => 
+                        # const selector = 'input[type="submit"]'
+                        const selector = '#gigya-login-form div'
+                        # const selector = '#gigya-login-form > div.gigya-layout-row.with-divider > div.gigya-layout-cell.responsive.with-site-login > div.gigya-composite-control.gigya-composite-control-submit > input'
+                        # const selector = '#gigya-login-form > div.gigya-layout-row.with-divider'
+                        try
+                            var evaluationResult
+                                {
+                                    [ dataList
+                                    [ messages
+
+                            var selected = document.querySelectorAll(selector)
+                            _ selected.forEach
+                                function 
+                                    param item
+                                    param index
+                                    _ evaluationResult.dataList.push
+                                        {
+                                            @ index index
+                                            @ value item.value
+                                            @ innerText item.innerText
+                                            @ innerHTML item.innerHTML
+                        catch ex         
+                            _ evaluationResult.messages.push
+                                @ "Error: " + ex.message
+                        return evaluationResult 
+
+        log 'evaluationResult', evaluationResult
+        _ terminate

@@ -1,0 +1,123 @@
+$group
+    
+    slide( ABIS (All Babies in Southeast Sweden) )
+        div( full
+            [ paras
+                "Studio prospettico di coorte."
+                "Il progetto ABIS è stato ideato per raccogliere informazioni su tutti i bambini nati dall'ottobre 1997 all'ottobre 1999 nel sud-est della Svezia."
+
+    slide( Obiettivi )
+        list( full, ---
+            [ items
+                "Valutare una serie di dimensioni del sonno (durata, ora di andare a dormire, qualità e risvegli) in relazione al rischio potenziale di sovrappeso o obesità infantile misurato dai punteggi Z dell'indice di massa corporea (BMI)."
+                "Identificare i fattori che possono influenzare le abitudini del sonno a 1 anno di età, per chiarire i percorsi alla base dei presunti meccanismi fisiopatologici che collegano il sonno e l'obesità, facilitando così le strategie di prevenzione."    
+    
+    slide( Partecipanti )
+        div( full
+            [ paras
+                "16.467, 75,9% della popolazione totale hanno compilato questionario alla nascita."
+                "10.840, 50%, hanno completato follow-up a 1 anno."
+                "4.029 a 8 anni."
+                "Follow-up a 1-3-5-8 anni."
+
+    slide( Metodi )
+        div( full
+            [ paras
+                "I questionari strutturati alla nascita includevano domande su periodo di gravidanza e perinatale, abitudini alimentari, attività fisica, modelli di sonno, caratteristiche demografiche, socioeconomiche e di stile di vita, nonché morbilità e misurazioni antropometriche."
+
+    slide( Criteri, Misurazioni 
+        div( left
+            [ paras
+                "Come: le variabili del sonno (categorizzate) sono state utilizzate nelle analisi bivariate per valutare i fattori che possono influenzare le abitudini del sonno a 1 anno di età, mentre le misurazioni continue del sonno sono state utilizzate nelle analisi longitudinali del modello misto."
+        div( right
+            [ paras
+                "Cos’è analisi bivariata: si parla di Analisi Bivariata quando su ogni unità statistica, appartenente ad una determinata popolazione, si rilevano due caratteri X e Y. Può trattarsi di due caratteri qualitativi (ovvero mutabili), o di due caratteri quantitativi (ovvero variabili), oppure di un carattere qualitativo e di un carattere quantitativo."
+    
+    slide( L'ora del sonno, Misurazioni 
+        div( full
+            [ paras
+                "1) A che ora della sera di solito metti a dormire tuo figlio? Con nove opzioni che vanno dalle 16:00 alle 24:00 o successive normale (19-21)."
+                "2) A che ora di solito svegli tuo figlio? Con nove opzioni che vanno dalle 04:00 alle 12:00 o successive."
+                "La durata del sonno notturno è stata calcolata come la differenza"
+
+    slide( Durata del sonno, Misurazioni 
+        div( full
+            [ paras
+                "Breve (5–9 ore), normale (10–12 h) e lunga (13–15 h) a 1 anno"
+                " (Le raccomandazioni per i bambini piccoli (1–2 anni) sono 11–14 h, ma abbiamo impostato le ore normali di sonno notturno su 10–12 h poiché le raccomandazioni includono i sonnellini.) "
+
+    slide( Il numero di risvegli, Misurazioni 
+        div( full
+            [ paras
+                "Quante volte tuo figlio si sveglia di solito durante la notte? Da 1 a 6 volte"
+
+    slide( La qualità del sonno, Misurazioni 
+        div( full
+            [ paras
+                "Come consideri la qualità del sonno notturno di tuo figlio? 5 opzioni da molto buono (1) a pessimo (5)."
+
+    slide( BMI, Misurazioni 
+        div( full
+            [ paras
+                "7 categorie di punteggio Z che vanno dal sottopeso grave (BMI < −3SD) all'obesità (BMI ≥ 3SD) secondo le definizioni dell'OMS."
+
+    slide( Covariate
+        div( full
+            [ paras
+                "Fattori genitoriali: etnia, fumo gravid, lavoro, stato civile, BMI"
+                "Struttura famigliare: numero fratelli, numero componenti, numero stanze"
+                "Fattori nascita: genere, PN, età gest, SGA, AGA, LGA"
+                "LM-LA, cessazione LM, complementare, n°poppate notturne e cessazione poppate notturne"
+                "Abitudini alimentari: Cibo spazzatura"
+                "Screen time: dai 3 anni basso<1ora e alto>1ora; a 5-8 anni basso<2h"
+
+    slide( Caratteristiche del campione
+        div( full
+            [ paras
+                "A 8 anni: sovrappeso 8,6%, obesità 10,6%"
+    
+    slide( Principali risultati
+        div( full
+            [ paras
+                "Le analisi longitudinali lineari che valutano la relazione tra sonno e punteggi Z del BMI indicano che cattive pratiche di sonno già a 1 anno di età possono aumentare il rischio di sovrappeso e obesità nei bambini molti anni dopo (8 anni di età nel nostro studio). Il punteggio Z del BMI del bambino aumenta in media di 0,09 unità (a 8 anni) per ogni ora di sonno più breve."
+                "Questi risultati sono in accordo con i risultati di alcuni studi precedenti."
+
+    slide( Fattori del sonno a 1 anno di età
+        div( full
+            [ paras
+                "Andare a dormire tardi è correlato a un maggior numero di risvegli e di poppate notturne con qualità del sonno inferiore."
+                "Il 36,5% dei genitori che hanno riferito la causa del risveglio a 1 anno e mezzo di età credeva che il bambino avesse fame."
+                "Genitori immigrati, single, con bassa istruzione, con prole numerosa, con fumo materno, con mancanza di lavoro materno, hanno figli generalmente con abitudini di sonno peggiori."
+
+    slide( Privazione del sonno, Meccanismi
+        div( full
+            [ paras
+                "La privazione del sonno può influire sul rischio di obesità attraverso diversi meccanismi comportamentali, biologici, sociali, culturali o ambientali."
+                "Il sonno scarso può provocare affaticamento diurno con ridotta attività fisica e uno stile di vita più sedentario."
+
+    slide( Screen time, Meccanismi
+        div( full
+            [ paras
+                "Un livello più elevato di visione dello schermo è stato associato all’obesità tra i bambini di questa coorte, in accordo con alcuni studi precedenti."
+
+    slide( ..., Meccanismi
+        div( full
+            [ paras
+                "La riduzione del sonno leptina e a livelli elevati di oressigeno grelina. Il consumo notturno di energia può portare a un rischio maggiore di obesità."
+                "Secrezione di insulina più lenta in risposta all’appetito. glucosio, con conseguente ridotta tolleranza al glucosio e ridotta sensibilità all'insulina."
+
+    slide( Ritmo circadiano, Meccanismi
+        div( full
+            [ paras
+                "Il sonno del bambino è regolato dal ritmo circadiano, Si ritiene che le cellule somatiche siano regolate da orologi circadiani intracellulari, la cui interruzione può indurre cambiamenti nell'omeostasi metabolica."
+
+    slide( Punti di forza e limiti
+        div( full
+            [ paras
+                "Dimensione-studio longitudinale"
+                "Diverse dimensioni del sonno piuttosto che la durata del sonno isolatamente, altamente coerenti con l'attigrafia e l'accelerometria"
+
+    slide( Conclusioni
+        div( full
+            [ paras
+                "L’educazione dei genitori che enfatizza le routine del sonno raccomandate, come andare a dormire regolarmente e presto, dovrebbe essere considerata una strategia di prevenzione dell’obesità."

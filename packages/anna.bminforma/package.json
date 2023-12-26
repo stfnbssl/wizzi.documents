@@ -13,7 +13,8 @@
         }
     ],
     "scripts": {
-        "ppt:fad": "node ./documents/ccmFad/createFadPpt.js"
+        "ppt:fad": "node ./documents/ccm2022/fad/createPpt.js",
+        "ppt:rel_13settembre": "node ./documents/ccm2022/rel_13settembre/createPpt.js"
     },
     "dependencies": {
         "@babel/core": "^7.0.0",

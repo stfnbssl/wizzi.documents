@@ -1,0 +1,76 @@
+wfjob anna.jclub/job
+	
+    $
+        var jobCtx = {
+            ittf_models_folder: path.join(__dirname, '..', '.wizzi', 'models'),
+            ittf_root_folder: path.join(__dirname, 'root'),
+            ittf_src_folder: path.join(__dirname, 'src'),
+            ittf_documents_folder: path.join(__dirname, 'documents'),
+            dest_folder: path.join(__dirname, '..'),
+            job_model: 'wzCtx'
+        }
+
+    model ${jobCtx.job_model}
+        schema json
+        src ${jobCtx.ittf_models_folder}/wzctx.json.ittf
+
+    $if false
+        model first
+            schema json
+            src ${jobCtx.ittf_models_folder}/slides/lab/first.json.ittf
+        model text
+            schema json
+            src ${jobCtx.ittf_models_folder}/slides/lab/text.json.ittf
+    
+    model sonno-e-obesità
+        schema json
+        src ${jobCtx.ittf_models_folder}/slides/sonno-e-obesità/index.json.ittf
+
+    line ittf-models
+        cwd-folder ${jobCtx.ittf_models_folder}
+        wfjobs(any_json, &jobCtx)
+
+	line ittf-root
+        cwd-folder ${jobCtx.ittf_root_folder}
+        dest-folder ${jobCtx.dest_folder}/
+
+		wfjobs(any_js, &jobCtx)
+		wfjobs(any_json, &jobCtx)
+		wfjobs(any_html, &jobCtx)
+		wfjobs(any_md, &jobCtx)
+		wfjobs(any_text, &jobCtx)
+		wfjobs(.gitignore, &jobCtx)
+
+	line ittf-src
+        cwd-folder ${jobCtx.ittf_src_folder}
+        dest-folder ${jobCtx.dest_folder}/src
+
+		wfjobs(any_js, &jobCtx)
+
+	line ittf-documents-lab
+        cwd-folder ${jobCtx.ittf_documents_folder}/lab
+        dest-folder ${jobCtx.dest_folder}/documents/lab
+
+		wfjobs(any_js, &jobCtx)
+        wfjobs(any_ppt, &jobCtx)
+            model-ref first
+                export-name first
+            model-ref text
+                export-name text
+
+	line ittf-documents-sonno-e-obesità
+        cwd-folder ${jobCtx.ittf_documents_folder}/sonno-e-obesità
+        dest-folder ${jobCtx.dest_folder}/documents/sonno-e-obesità
+
+		wfjobs(any_js, &jobCtx)
+        wfjobs(any_ppt, &jobCtx)
+            model-ref sonno-e-obesità
+                export-name sonno_e_obesità
+
+	production
+		dest-folder ${jobCtx.dest_folder}
+        line-ref ittf-models
+        line-ref ittf-root
+		line-ref ittf-src
+        $$ line-ref ittf-documents-lab
+        line-ref ittf-documents-sonno-e-obesità

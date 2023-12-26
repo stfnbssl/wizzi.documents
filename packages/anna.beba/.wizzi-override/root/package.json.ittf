@@ -18,6 +18,7 @@
         npm ">=1.4.28"
     { scripts
         docx:marzo21:pediatra "node ./documents/marzo21/docx/pediatra_marzo_21.docx.js"
+        docx:maggio23 "node ./documents/maggio23/docx/book_lab_maggio_23.docx.js"
         ppt:marzo21 "node ./documents/marzo21/ppt/presentazione_marzo_21.ppt.js"
         pdf:marzo21 "node ./documents/marzo21/pdf/presentazione_marzo_21.pdf.js"
         ppt:maggio23 "node ./documents/maggio23/ppt/presentazione_maggio_23.ppt.js"

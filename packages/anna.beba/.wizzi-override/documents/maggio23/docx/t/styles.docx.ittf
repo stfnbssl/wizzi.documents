@@ -1,0 +1,23 @@
+$group
+
+    styles-def
+        
+        paragraph-styles
+            style-def content
+                name Content
+                basedOn Normal
+                next Normal
+                run
+                    font Garamond
+                    size ${14*2}
+                paragraph
+                    spacing
+                        before convertInchesToTwip(0.1)
+        
+        character-styles
+            style-def content
+                name Content
+                basedOn Normal
+                run
+                    font Garamond
+                    size ${14*2}

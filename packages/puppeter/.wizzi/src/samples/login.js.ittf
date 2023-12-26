@@ -1,0 +1,34 @@
+module
+    kind es6
+
+    # useful https://api.jquery.com/author/selectors/
+
+    $
+        var md = {
+            startPage: 'page',
+            startUrl: null,
+        }
+    const url = "https://www.limesonline.com/edicola/funnel/login.jsp"
+
+    start(&md)
+        await page.goto(url, {waitUntil: 'networkidle0'})
+        const selectorAccept = 'button.iubenda-cs-accept-btn'
+        await page.click(selectorAccept)
+        const selectorUserName = "#gigya-login-form > div.gigya-layout-row.with-divider > div.gigya-layout-cell.responsive.with-site-login > div.gigya-composite-control.gigya-composite-control-textbox > input"
+        const selectorPassword = "#gigya-login-form > div.gigya-layout-row.with-divider > div.gigya-layout-cell.responsive.with-site-login > div.gigya-composite-control.gigya-composite-control-password > input"
+        const selectorLogin = "#gigya-login-form > div.gigya-layout-row.with-divider > div.gigya-layout-cell.responsive.with-site-login > div.gigya-composite-control.gigya-composite-control-submit > input"
+        await page.type(selectorUserName, 'stfn.bssl@gmail.com')
+        await page.type(selectorPassword, 'Li!+-"+-91')
+        var r = await page.$eval(selectorUserName, ({ value }) => value)
+        log 'r', r
+        set r = await page.$eval(selectorPassword, ({ value }) => value)
+        log 'r', r
+        set r = await page.$eval(selectorLogin, ({ value }) => value)
+        log 'r', r
+        await
+            _ Promise.all
+                [
+                    _ page.click(selectorLogin)
+                    _ page.waitForNavigation({ waitUntil: 'networkidle0' })
+        await page.screenshot({ path: 'login.png' })
+        _ terminate

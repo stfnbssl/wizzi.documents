@@ -1,0 +1,181 @@
+$group
+
+    function parseText
+        param text
+
+        var words = []
+        var word = []
+
+        for var i=0; i<text.length; i++
+            var ch = text[i]
+            if [' ', '\t', '\n', '’', '"', '\''].indexOf(ch) > -1
+                if word.length > 0
+                    var word2 = word.join('').replace(/\[[\d]+\]/, '').trim()
+                    if word2.length > 0
+                        _ words.push
+                            @ word2
+                set word.length = 0
+            else
+                _ word.push
+                    @ ch
+
+        var keys = {}, wp, wn
+        var key = []
+        for i=0; i<words.length; i++
+            var word = words[i]
+            # log word, word.length
+            if isAlpha(word[0]) && word[0] == word[0].toUpperCase()
+                set wp = i>0 ? words[i-1] : null
+                set wn = i<words.length-1 ? words[i+1] : null
+                if wp && isEndOfPara(wp) == false
+                    # log 'word', word
+                    if isEndOfPara(word) || [',',';',':',')',']'].indexOf(word[word.length-1]) > -1
+                        var word2 = word.substr(0, word.length-1)
+                        if [',',';',':',')',']'].indexOf(word2[word2.length-1]) > -1
+                            set word2 = word2.substr(0, word2.length-1)
+                        # log 'word, word2', word, word2
+                        var word3 = checkKey(word2)
+                        if word3 && word3.length > 0
+                            set keys[word3] = true
+                            _ key.push
+                                @ word3
+                    else
+                        var word2 = checkKey(word)
+                        if word2 && word2.length > 0
+                            set keys[word2] = true
+                            _ key.push
+                                @ word2
+            else
+                if key.length > 1
+                    set keys[key.join(' ')] = true
+                set key = []
+
+        return
+            {
+                $$ @ words words
+                @ keys Object.keys(keys)
+
+    function isAlpha
+        param str
+        return /^[a-zA-Z]+$/.test(str);        
+
+    function isEndOfPara
+        param str
+        if ['.', '?', '!'].indexOf(str[str.length-1]) > - 1
+            if str.length == 2 && isAlpha(str[0]) && str[0] == str[0].toUpperCase()
+                return false
+            return true
+        return false
+
+    function checkKey
+        param key
+        var key2 = cleanTagName(key)
+        if key2.length < 2 && key2 !== 'I'
+            return null
+        var ret = getTagTrans[key2]
+        return typeof ret == 'undefined' ? key2 : ret
+
+    function cleanTagName
+        param key
+        var rTag = []
+        for var i=0; i<key.length; i++
+            var ch = key[i]
+            if isTagChar(ch)
+                _ rTag.push(ch)
+            else
+                set result.rejected[ch] = ch.charCodeAt(0)
+        return rTag.join('')
+
+    function isTagChar
+        param ch
+        var code = ch.charCodeAt(0)
+        if code > 96 && code < 123 
+            return true $$ lower alpha (a-z)
+        if code > 64 && code < 91 
+            return true $$ upper alpha (A-Z)
+        if code > 47 && code < 58 
+            return true $$ numeric (0-9)
+        if code == 324 $$ "ń": , 
+            return true
+        if code == 263 $$ "ć": ,
+            return true
+        if code == 287 $$ "ğ": ,
+            return true
+        if code == 238 $$ "î": ,
+            return true
+        if code == 246 $$ "ö": ,
+            return true
+        if code == 252 $$ "ü": ,
+            return true
+        if code == 351 $$ "ş": ,
+            return true
+        if code == 233 $$ "é": ,
+            return true
+        if code == 231 $$ "ç": ,
+            return true
+        if code == 235 $$ "ë": ,
+            return true
+        if code == 232 $$ "è": ,
+            return true
+        if code == 225 $$ "á": ,
+            return true
+        if code == 305 $$ "ı": ,
+            return true
+        if code == 239 $$ "ï": ,
+            return true
+        if code == 286 $$ "Ğ": ,
+            return true
+        if code == 237 $$ "í": ,
+            return true
+        if code == 353 $$ "š": ,
+            return true
+        if code == 244 $$ "ô": ,
+            return true
+        if code == 214 $$ "Ö": ,
+            return true
+        if code == 223 $$ "ß": ,
+            return true
+        if code == 243 $$ "ó": ,
+            return true
+        if code == 273 $$ "đ": ,
+            return true
+        if code == 350 $$ "Ş": ,
+            return true
+        if code == 250 $$ "ú": ,
+            return true
+        if code == 199 $$ "Ç": ,
+            return true
+        if code == 228 $$ "ä": ,
+            return true
+        if code == 323 $$ "Ń": ,
+            return true
+        if code == 381 $$ "Ž": ,
+            return true
+        if code == 248 $$ "ø": ,
+            return true
+        if code == 234 $$ "ê": ,
+            return true
+        if code == 38 $$ "&": ,
+            return true
+        if code == 241 $$ "ñ": ,
+            return true
+        if code == 201 $$ "É": ,
+            return true 
+        if code == 322 $$ "ł": ,
+            return true
+        if code == 226 $$ "â": ,
+            return true
+        if code == 227 $$ "ã": 
+            return true
+        if code == 224 $$ "à": ,
+            return true
+        if code == 176 $$ "°": ,
+            return $$ true
+        if code == 203 $$ "Ë": ,
+            return true
+        if code == 7861 $$ "ẵ": ,
+            return true
+
+        if ['_','-','/'].indexOf(ch) > -1
+            return true
+        return false

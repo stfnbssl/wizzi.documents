@@ -1,0 +1,153 @@
+layouts/muiPage()
+
+  $append bodyscripts
+    scripts/loadjson()
+    scripts/geopDb()
+
+  $append imports
+
+  $append components
+    function ListItemLink
+      param props
+      return 
+          < ListItem 
+            @ button
+            @ component "a"
+            @ {...props}
+    $$ components/content()
+
+  $append styles
+    { root
+        @ width '100%'
+        @ backgroundColor theme.palette.background.paper
+    { gridRoot
+        @ flexGrow 1
+
+  $append state
+    @ isLoading true
+    @ jsonData {}
+    @ selectedTag null
+    @ error null
+
+  did-mount
+    _ loadJSON
+        @ "json/meyssant.articles.indexes.json"
+        =>
+            param response 
+            var jsonresponse = JSON.parse(response)
+            _ this.setState
+                {
+                    @ jsonData jsonresponse
+                    @ isLoading false
+                    @ error null
+  
+  => handleSelectTag
+    param tag
+    log 'handleSelectTag', tag
+    _ this.setState
+        {
+            @ selectedTag tag
+            @ selectedParas dbGetTagParagraphs(tag, this.state.jsonData)
+  
+  render
+    prop classes
+    const { isLoading, jsonData, error, selectedTag, selectedParas } = this.state    
+    if isLoading
+        return
+            div loading
+    else
+        # log 'from render', jsonData
+        return 
+            div 
+                @ className {classes.root}
+                < Grid
+                    @ container
+                    < Grid
+                        @ item
+                        @ xs {12}
+                        < Paper
+                            < Grid
+                                @ container
+                                @ className {classes.gridRoot}
+                                @ spacing {2}
+                                < Grid
+                                    @ item
+                                    @ xs {2}
+                                    < h2 Tags
+                                    < Paper
+                                        @ style {{maxHeight: '90vh', overflow: 'auto'}}
+                                        < Table 
+                                            < TableBody
+                                                {
+                                                    _ Array.from(Object.keys(jsonData.tags)).sort(compare).map
+                                                        =>
+                                                            param item
+                                                            param ndx
+                                                            return
+                                                                < TableRow 
+                                                                    @ key {ndx}
+                                                                    < TableCell
+                                                                        @ style {{padding: '1px'}}
+                                                                        span {item}
+                                                                        @ onClick
+                                                                            =>
+                                                                                param event
+                                                                                _ this.handleSelectTag(item)
+                                                                        $*
+                                                                        < ContentText
+                                                                            @ item {item}
+                                                                        *$
+                                {
+                                    && 
+                                        + selectedParas && selectedParas.length > 0
+                                        < Grid
+                                            @ item
+                                            @ xs {6}
+                                            < h2 {selectedTag}
+                                            < Paper
+                                                @ style {{maxHeight: '90vh', overflow: 'auto'}}
+                                                < Table 
+                                                    < TableBody
+                                                        {
+                                                            _ selectedParas.map
+                                                                =>
+                                                                    param item
+                                                                    param ndx
+                                                                    return
+                                                                        < TableRow 
+                                                                            @ key {ndx}
+                                                                            < TableCell
+                                                                                @ style {{padding: '15px'}}
+                                                                                div
+                                                                                    @ style {{fontSize: '1rem', fontWeight: '600'}}
+                                                                                    a {item.article.title}
+                                                                                        @ style {{textDecoration: 'none', color: '#000'}}
+                                                                                        href {item.article.link}
+                                                                                        target _blank 
+                                                                                div {item.article.date}
+                                                                                span {item.text}
+                                                                                div
+                                                                                    {
+                                                                                        _ item.indexes.keys.map
+                                                                                            =>
+                                                                                                param tag
+                                                                                                param ndx
+                                                                                                return
+                                                                                                    span {tag}
+                                                                                                        @ key {ndx}
+                                                                                                        @ style {{ paddingRight: '5px', fontWeight: '700', fontSize: '0.5rem', textDecoration: 'underline', cursor: 'pointer' }}
+                                                                                                        @ onClick
+                                                                                                            =>
+                                                                                                                param event
+                                                                                                                _ this.handleSelectTag(tag)
+
+
+                                                                                $*
+                                                                                @ onClick
+                                                                                    =>
+                                                                                        param event
+                                                                                        _ this.handleSelectTag(item)
+                                                                                
+                                                                                < ContentText
+                                                                                    @ item {item}
+                                                                                *$

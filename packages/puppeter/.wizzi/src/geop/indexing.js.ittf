@@ -1,0 +1,114 @@
+module
+    kind es6
+
+    const fs = require('fs')
+    const path = require('path')
+    const puppeteer = require('puppeteer')
+    const stringify = require('json-stringify-safe') 
+    const wizziUtils = require('wizzi-utils')
+    const verify = wizziUtils.verify
+    const file = wizziUtils.file
+
+    var author = "meyssant"
+
+    $include tagTrans
+
+    const result
+        {
+            [ articles
+            { tags
+            { rejected
+    var articleNdx = 0
+
+    function makeIndexes
+        param pageFrom
+        param pageTo
+        
+        const authorData
+            _ file.readJSON
+                _ path.join
+                    @ __dirname
+                    @ "extracted"
+                    @ author + '.' + pageFrom + '_' + pageTo + '.articles.json'
+
+        log 'authorData.articles', authorData.articles.length
+        foreach article in authorData.articles
+            set article.ndx = ++articleNdx
+            log articleNdx, article.link
+            var paraNdx = 0
+            foreach para in article.contents
+                set para.ndx = ++paraNdx
+                if para.tag
+                    set para.indexes
+                        _ parseText
+                            @ para.text
+                    foreach tag in para.indexes.keys
+                        _ setTag
+                            @ tag
+                            @ articleNdx
+                            @ paraNdx
+            _ result.articles.push
+                @ article
+
+    _ makeIndexes
+        @ 0
+        @ 5
+    _ makeIndexes
+        @ 6
+        @ 10
+    _ makeIndexes
+        @ 11
+        @ 15
+    
+    set result.tags
+        _ cleanTags
+            @ result.tags
+
+    _ file.write
+        _ path.join
+            @ __dirname
+            @ 'app'
+            @ 'json'
+            @ author + '.articles.indexes.json'
+        _ stringify
+            @ result
+            @ null
+            @ 4
+
+    $include parseText
+
+    function setTag
+        param name
+        param articleNdx
+        param paraNdx
+
+        var tag = result.tags[name]
+        if !tag
+            set tag
+                {
+                    [ paras
+            set result.tags[name] = tag
+        _ tag.paras.push
+            [
+                @ articleNdx
+                @ paraNdx
+
+    function cleanTags
+        param resultTags
+        var oCleanTags = {}
+        foreach tag in Object.keys(resultTags)
+            var oTag = result.tags[tag]
+            if tag == tag.toUpperCase()
+                var tagCamel = tag[0] + tag.substring(1).toLowerCase()
+                # log 'tag, tagCamel', tag, tagCamel
+                var oTagCamel = result.tags[tagCamel]
+                if oTagCamel
+                    # simply copy
+                    foreach para in oTagCamel.paras
+                        _ oTag.paras.push
+                            @ para
+                    set oCleanTags[tagCamel] = oTag
+            else
+                # simply copy
+                set oCleanTags[tag] = oTag
+        return oCleanTags

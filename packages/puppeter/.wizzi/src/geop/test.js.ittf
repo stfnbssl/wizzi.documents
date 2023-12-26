@@ -1,0 +1,10 @@
+module
+    kind es6
+
+    $include parseText
+
+    var p
+        _ parseText
+            @ "However, it was the director of France’s foreign secret services, Alexandres de Marenches, who proposed to his US counterpart within the framework of the Pinay Circle [2] to provoke a Soviet intervention in Afghanistan in order to trap them there [3]. President Carter’s National Security Advisor, Zbigniew Brzeziński, sought out anti-communist billionaire Osama Bin Laden in Beirut and asked him to lead Arab mercenaries in a terrorist campaign against the Afghan communist government [4]. Bin Laden was in Beirut to meet with former Lebanese President Camille Chamoun, a member of the World Anti-Communist League [5]. Washington chose Bin Laden for two reasons: First, he was a member of a secret society, the Muslim Brotherhood, which allowed him to recruit fighters; second, he was one of the heirs to the largest construction company in the Arab world. As such, he had the men and know-how to turn the underground rivers of the Hindu Kush into military communication routes."
+
+    log 'p', p

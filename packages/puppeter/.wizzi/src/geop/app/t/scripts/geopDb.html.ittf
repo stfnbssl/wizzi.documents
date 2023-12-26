@@ -1,0 +1,56 @@
+$group
+
+    script
+        type text/babel
+        module
+            function dbGetTagParagraphs
+                param id
+                param dbParam
+
+                var tagParas = []
+                var tag = dbParam.tags[id]
+                foreach p in tag.paras
+                    var pObj
+                        _ dbGetPara
+                            @ p[0]
+                            @ p[1]
+                            @ dbParam
+                    log 'pObj', pObj
+                    _ tagParas.push
+                        @ pObj
+                return tagParas
+
+            function dbGetByNdx
+                param coll
+                param ndx
+                return
+                    _ coll.find
+                        =>
+                            param item
+                            return item.ndx == ndx
+
+            function dbGetArticle
+                param ndx
+                param dbParam
+                log 'dbGetArticle', ndx
+                return
+                    _ dbGetByNdx
+                        @ dbParam.articles
+                        @ ndx
+
+            function dbGetPara
+                param articleNdx
+                param ndx
+                param dbParam
+                log 'dbGetPara', articleNdx, ndx
+                var article
+                    _ dbGetArticle
+                        @ articleNdx
+                        @ dbParam
+                var para
+                    _ dbGetByNdx
+                        @ article.contents
+                        @ ndx
+                        @ dbParam
+                set para.article = article
+                return para

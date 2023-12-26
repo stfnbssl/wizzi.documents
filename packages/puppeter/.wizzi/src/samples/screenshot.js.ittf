@@ -1,0 +1,16 @@
+module
+    kind es6
+
+    # useful https://api.jquery.com/author/selectors/
+
+    $
+        var md = {
+            startPage: 'page',
+            startUrl: null,
+        }
+    const url = "https://www.amazon.it"
+
+    start(&md)
+        await page.goto(url)
+        await page.screenshot({ path: 'screenshot.png' })
+        _ terminate

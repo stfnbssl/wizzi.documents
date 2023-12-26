@@ -1,0 +1,17 @@
+$group
+    $params title, num
+
+    section ${num}
+        page 
+            margins( 1.2 )
+        header
+            p
+                border
+                    bottom
+                        size 1
+                        value single
+                        space 2
+                + ${title}
+                    font Garamond
+                    size ${16*2}
+        $hook

@@ -1,0 +1,107 @@
+module
+    kind es6
+
+    # useful https://api.jquery.com/author/selectors/
+
+    $
+        var md = {
+            startPage: 'articlePage',
+            startUrl: null,
+        }
+
+    var author = "meyssant"
+    var extractNum = 3
+    var pageFrom = (extractNum - 1) * 5 + 1
+    var pageTo = extractNum * 5
+
+    const result
+        {
+            [ articles
+
+    common/start2(&md)
+        
+        const authorData
+            _ file.readJSON
+                _ path.join
+                    @ __dirname
+                    @ "extracted"
+                    @ author + '.' + pageFrom + '_' + pageTo + '.json'
+
+        log 'authorData.articles.length', authorData.articles.length
+
+        async-function extract
+            param index
+            
+            if index > authorData.articles.length - 1
+                return
+                    _ terminate
+            
+            var authorArticle = authorData.articles[index]
+            
+            log 'index', index, 'link', authorArticle.link
+            
+            var article
+                await 
+                    _ articlePage.goto(authorArticle.link)
+            
+            const evaluationResult
+                await 
+                    _ articlePage.evaluate
+                        => 
+                            try
+                                var evaluationResult
+                                    {
+                                        [ dataList
+                                        [ messages
+                                var content = document.querySelector('div.article-text-images')
+                                var items = Array.from(content.childNodes)
+                                foreach item in items
+                                    if item.tagName == 'DIV'
+                                        var imgNode = item.querySelector('figure > img')
+                                        var captionNode = item.querySelector('figure > figcaption')
+                                        var c = {}
+                                        if imgNode
+                                            set c.src = imgNode.src
+                                        if captionNode
+                                            set c.caption = captionNode.innerText
+                                        _ evaluationResult.dataList.push
+                                            {
+                                                @ image c
+                                    else
+                                        if item.innerText
+                                            _ evaluationResult.dataList.push
+                                                {
+                                                    @ tag item.tagName
+                                                    @ text item.innerText
+
+                            catch ex         
+                                _ evaluationResult.messages.push
+                                    @ "Error: " + ex.message
+                            return evaluationResult 
+
+            log 'evaluationResult', evaluationResult
+            _ result.articles.push
+                {
+                    @ link authorArticle.link
+                    @ title authorArticle.title
+                    @ date authorArticle.date
+                    @ author author
+                    @ contents evaluationResult.dataList
+                    @ messages evaluationResult.messages
+            
+            _ extract
+                @ index + 1
+
+        _ extract
+            @ 0
+
+        $append terminate
+            _ file.write
+                _ path.join
+                    @ __dirname
+                    @ 'extracted'
+                    @ author + '.' + pageFrom + '_' + pageTo + '.articles.json'
+                _ stringify
+                    @ result
+                    @ null
+                    @ 4

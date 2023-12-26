@@ -1,0 +1,65 @@
+module
+    kind es6
+
+    $
+        var dollardollar = '$' + '$'
+
+    const fs = require('fs')
+    const path = require('path')
+    const puppeteer = require('puppeteer')
+    const stringify = require('json-stringify-safe') 
+    const wizziUtils = require('wizzi-utils')
+    const verify = wizziUtils.verify
+    const file = wizziUtils.file
+
+    var backendLoginUrl = "https://cosie.lepida.it/"
+    var guideSearchUrl = "https://cosie.lepida.it/backoffice/newssearch"
+    
+    var username = "annamaria.davoli@ausl.re.it"
+    var psw = "AS2rROFo"
+
+    $$ var category = "Bambino"
+    $$ var category = "Tutti a tavola"
+    $$ var category = "NpL-NpM"
+    $$ var category = "Famiglia"
+    $$ var category = "Pediatra"
+    $$ var category = "Temi caldi"
+    var category = "Giochi-Movimento"
+
+    async-function start
+
+        const browser
+            await 
+                _ puppeteer.launch
+                    { 
+                        @ headless true
+
+        const page
+            await
+                _ browser.newPage
+
+        login( page )
+
+        await
+            _ page.setViewport({ width: 1280, height: 800 })
+        await
+            _ page.screenshot({ path: 'images/loggedin.png', fullPage: true })
+
+        $include category
+
+        _ browser.close()
+
+        _ file.write
+            _ path.join
+                @ __dirname
+                @ "extracted"
+                @ category + '.json'
+            _ stringify
+                @ evaluationResult.dataList
+                @ null
+                @ 4
+
+    + (async function() { await start(); console.log('DONE');}())
+
+    $include form-fields
+    $include tables

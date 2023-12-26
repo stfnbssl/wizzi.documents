@@ -1,0 +1,8 @@
+{
+    [ slides
+        $if true
+            $include ./start
+        $if false
+            $include ./getData
+    
+    $include ppt-commons

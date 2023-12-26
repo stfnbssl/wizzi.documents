@@ -1,0 +1,14 @@
+$group
+    $params page
+
+    await 
+        _ ${page}.goto(backendLoginUrl)
+    await 
+        _ ${page}.type('#username', username)
+    await 
+        _ ${page}.type('#password', psw)
+    await 
+        _ ${page}.click('button[type="submit"]')
+    await 
+        _ ${page}.waitForNavigation
+    log 'logged in'

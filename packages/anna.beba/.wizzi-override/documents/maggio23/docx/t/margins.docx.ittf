@@ -1,0 +1,8 @@
+$group
+    $params v
+
+    margin
+        top =convertInchesToTwip(${v})
+        right =convertInchesToTwip(${v})
+        bottom =convertInchesToTwip(${v})
+        left =convertInchesToTwip(${v})

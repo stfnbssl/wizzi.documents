@@ -1,0 +1,26 @@
+{
+    "name": "anna.bminforma",
+    "version": "0.0.1",
+    "author": {
+        "name": "Stefano Bassoli",
+        "email": "stfn.bssl@gmail.com"
+    },
+    "private": false,
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/stfnbssl/wizzi.documents/tree/master/packages/anna.bminforma/license.txt"
+        }
+    ],
+    "scripts": {
+        "ppt:so": "node ./documents/sonno-e-obesità/createPpt.js"
+    },
+    "dependencies": {
+        "@babel/core": "^7.0.0",
+        "@wizzi/factory": "latest",
+        "@wizzi/utils": "latest",
+        "chalk": "^2.4.1",
+        "minimist": "^1.2.0",
+        "pptxgenjs": "latest"
+    }
+}

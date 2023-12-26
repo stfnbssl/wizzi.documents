@@ -1,0 +1,2984 @@
+{
+	"defaultStyle": {
+		"fontFace": "Tahoma",
+		"fontSize": 14
+	},
+	"styles": {
+		"DebugText": {
+			"fontFace": "Arial",
+			"fontSize": 10,
+			"color": "FF0000"
+		},
+		"Tab": {
+			"x": 0.5,
+			"y": 0.13,
+			"colW": [
+				9,
+				3.33
+			]
+		},
+		"TextL": {
+			"color": "9F9F9F",
+			"margin": [
+				3,
+				3,
+				3,
+				3
+			],
+			"border": {
+				"top": null,
+				"right": null,
+				"bottom": {
+					"pt": 1,
+					"color": "CFCFCF"
+				},
+				"left": null
+			}
+		},
+		"OptsR": {
+			"color": "9F9F9F",
+			"margin": [
+				3,
+				3,
+				3,
+				3
+			],
+			"border": {
+				"top": {},
+				"right": {
+					"pt": 1,
+					"color": "CFCFCF"
+				},
+				"bottom": {},
+				"left": {}
+			},
+			"align": "right"
+		},
+		"Code": {
+			"color": "9F9F9F",
+			"margin": [
+				3,
+				3,
+				3,
+				3
+			],
+			"border": {
+				"pt": 1,
+				"color": "CFCFCF"
+			},
+			"fill": {
+				"color": "F1F1F1"
+			},
+			"fontFace": "Courier",
+			"fontSize": 12
+		},
+		"SubTitle": {
+			"x": 0.5,
+			"y": 0.7,
+			"w": 4,
+			"h": 0.3,
+			"fontSize": 18,
+			"fontFace": "Arial",
+			"color": "0088CC",
+			"fill": {
+				"color": "FFFFFF"
+			}
+		},
+		"TitleText": {
+			"fontSize": 14,
+			"color": "0088CC",
+			"bold": true
+		},
+		"TitleTextBk": {
+			"fontSize": 14,
+			"color": "0088CC",
+			"bold": true,
+			"breakLine": true
+		},
+		"TitleOpts": {
+			"fontSize": 13,
+			"color": "9F9F9F"
+		},
+		"sectionHeading1": {
+			"fontSize": 34,
+			"bold": true
+		},
+		"heading1": {
+			"fontSize": 24,
+			"bold": true
+		},
+		"heading2": {
+			"fontSize": 20,
+			"bold": true
+		},
+		"normal": {
+			"fontSize": 14
+		},
+		"normal2": {
+			"fontSize": 12
+		},
+		"textblock1": {
+			"fontSize": 18
+		},
+		"textblock2": {
+			"fontSize": 16
+		},
+		"textblock3": {
+			"fontSize": 14
+		},
+		"textblock4": {
+			"fontSize": 12
+		},
+		"textblock5": {
+			"fontSize": 10
+		},
+		"textblock1Centered": {
+			"fontSize": 18,
+			"align": "center"
+		},
+		"thinBoldCaption": {
+			"fontSize": 12,
+			"bold": true
+		},
+		"bibliorefBold": {
+			"fontSize": 9,
+			"bold": true
+		},
+		"biblioref": {
+			"fontSize": 9
+		}
+	},
+	"slides": [
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Dal “Progetto sovrappeso/obesità” alla procedura “BMInforma”",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"pStack": [
+						{
+							"text": "Progetto sovrappeso/obesità (2008)",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Normativa regione E-R (2013)",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Procedura permanente BMInforma (2018)",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						}
+					],
+					"options": []
+				},
+				{
+					"image": {
+						"y": "60%",
+						"x": "25%",
+						"w": "12%",
+						"h": "10%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/freccia destra.png"
+					}
+				},
+				{
+					"pStack": [
+						{
+							"text": "L’ambulatorio del  pediatra avvia  un percorso di intercettazione  e coordinamento  multidisciplinare per il trattamento del bambino con sovrappeso/obesità",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 16,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 3",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						}
+					],
+					"options": []
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Principi fondamentali",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"pStack": [
+						{
+							"text": "Consapevolezza (Letteratura scientifica, JClub, Guide anticipatorie)",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Formazione/Motivazione operatori",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Costituzione rete di servizi",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Normative E-R",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Supporto aziendale organizzativo e informatico",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						}
+					],
+					"options": []
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Primi passi",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"pStack": [
+						{
+							"text": "Presa di coscienza durante la partecipazione ad eventi formativi",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Maturazione della consapevolezza della gravità assunta dal problema",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Assenza di linee guida per la prevenzione e il trattamento",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						}
+					],
+					"options": []
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Primo intervento: raccolta dati",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"pStack": [
+						{
+							"text": "PLS",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Epidemiologia",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "CED",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Progetto “Sovrappeso e obesità” negli Accordi Aziendali 2008 - 2010 dei PLS",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						}
+					],
+					"options": []
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Misurazione BMI (evidenza di grado B)",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"pStack": [
+						{
+							"text": "Tutti i bambini 3-14 anni",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Per 15 mesi ai Bilanci di Salute",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Risultato: 7396 bambini con sovrappeso/obesità (20%)",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						}
+					],
+					"options": []
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Studio e impostazione strategia",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"pStack": [
+						{
+							"text": "Raccomandazione dell’American Medical Association (AMA)",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"bold": true,
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "1° gradino: counselling",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "2° gradino: un piano strutturato di gestione del peso",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "3° gradino: intervento completo multidisciplinare",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						}
+					],
+					"options": []
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Primo gradino (counselling)",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"pStack": [
+						{
+							"text": "Intervento Motivazionale al cambiamento degli stili di vita rivolto a bambini e famiglie",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "“Modello Transteorico del cambiamento” - DiClemente e Prochaska",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						}
+					],
+					"options": []
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Costituzione Rete e Formazione",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"pStack": [
+						{
+							"text": "Progettazione rete servizi: Pediatri, Epidemiologia, Servizio Igiene Alimenti e Nutrizione (SIAN), Medicina dello Sport e Luoghi di Prevenzione (LdP) con il sostegno delle Cure Primarie.",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Counseling Motivazionale per i PLS della provincia (20 ore presso LdP).",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "L’Intervento Motivazionale offre agli operatori fiducia e strumenti per dialogare con le famiglie.",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						}
+					],
+					"options": []
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Misurare facendo",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"pStack": [
+						{
+							"text": "Intervento sostenibile",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Misurazione",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Follow up",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Strumenti software adeguati",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						}
+					],
+					"options": []
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Il Trial Clinico",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"image": {
+						"y": "25%",
+						"x": "5%",
+						"w": "30%",
+						"h": "60%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/trial clinico.png"
+					}
+				},
+				{
+					"pStack": [
+						{
+							"text": "12 mesi",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 14,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Intervento Motivazionale efficace",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 14,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Efficace per le femmine",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 14,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Più efficace per bambini di mamme con titolo di studio più alto",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 14,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Intervento Sostenibile",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 14,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Alta aderenza allo studio",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 14,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Feedback positivo dei professionisti coinvolti",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 14,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						}
+					],
+					"options": []
+				},
+				{
+					"text": "Il Trial 2013 su Pediatrics",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 14,
+						"y": "15%",
+						"x": "60%",
+						"w": "40%",
+						"h": "10%",
+						"color": "333333",
+						"isTextBox": true,
+						"objectName": "Text 3",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true
+						}
+					}
+				},
+				{
+					"image": {
+						"y": "25%",
+						"x": "60%",
+						"w": "40%",
+						"h": "30%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/trial clinico pediatrics.jpg"
+					}
+				},
+				{
+					"text": "Il gruppo cocreation",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 14,
+						"y": "57%",
+						"x": "60%",
+						"w": "35%",
+						"h": "8%",
+						"color": "333333",
+						"isTextBox": true,
+						"objectName": "Text 4",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true
+						}
+					}
+				},
+				{
+					"image": {
+						"y": "65%",
+						"x": "60%",
+						"w": "40%",
+						"h": "30%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/Gruppo cocreation.jpg"
+					}
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Quanto peso a 3 anni",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"image": {
+						"y": "20%",
+						"x": "5%",
+						"h": "75%",
+						"w": "35%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/quanto peso a 3 anni.png"
+					}
+				},
+				{
+					"image": {
+						"y": "20%",
+						"x": "55%",
+						"h": "32.5%",
+						"w": "40%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/le abitudini a 3 anni.png"
+					}
+				},
+				{
+					"image": {
+						"y": "62.5%",
+						"x": "55%",
+						"h": "32.5%",
+						"w": "40%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/divieto passeggino.jpg"
+					}
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Normativa regionale 2013",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"image": {
+						"y": "15%",
+						"x": "35%",
+						"w": "30%",
+						"h": "80%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/modello regionale 2013.png"
+					}
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Quanto peso a 5 anni: la Corte dalla nascita a 12 anni 2011",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"image": {
+						"y": "30%",
+						"x": "10%",
+						"w": "80%",
+						"h": "60%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/Coorte seguita dai PLS.jpg"
+					}
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "BMInforma",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"image": {
+						"y": "25%",
+						"x": "30%",
+						"w": "40%",
+						"h": "60%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/logo BMInForma.png"
+					}
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Guida all'intervento motivazionale",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"image": {
+						"y": "15%",
+						"x": "30%",
+						"w": "40%",
+						"h": "80%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/guida intervento motivazionale.jpg"
+					}
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Intervento Motivazionale BMInforma",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"pStack": [
+						{
+							"text": "L'età dell'adiposity rebound.",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						}
+					],
+					"options": []
+				},
+				{
+					"image": {
+						"y": "50%",
+						"x": "6%",
+						"w": "10%",
+						"h": "15%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/logo BMInForma.png"
+					}
+				},
+				{
+					"pStack": [
+						{
+							"text": "Lo screening per BMInForma",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 3",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						}
+					],
+					"options": []
+				},
+				{
+					"image": {
+						"y": "30%",
+						"x": "30%",
+						"w": "20%",
+						"h": "15%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/bilancio 5 anni - anagrafe.png"
+					}
+				},
+				{
+					"image": {
+						"y": "50%",
+						"x": "30%",
+						"w": "20%",
+						"h": "15%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/bilancio 5 anni - antropologici.png"
+					}
+				},
+				{
+					"image": {
+						"y": "70%",
+						"x": "30%",
+						"w": "20%",
+						"h": "15%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/bilancio 5 anni - aspetti clinici.png"
+					}
+				},
+				{
+					"pStack": [
+						{
+							"text": "Se il BMI supera l'85° percentile",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 16,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 4",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						}
+					],
+					"options": []
+				},
+				{
+					"image": {
+						"y": "62%",
+						"x": "55%",
+						"w": "12%",
+						"h": "10%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/freccia destra.png"
+					}
+				},
+				{
+					"image": {
+						"y": "30%",
+						"x": "70%",
+						"w": "25%",
+						"h": "60%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/bilancio 5 anni - stili di vita.png"
+					}
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Diagnosi motivazionale",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"image": {
+						"y": "20%",
+						"x": "5%",
+						"w": "90%",
+						"h": "75%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/diagnosi motivazionale.jpg"
+					}
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "EmotIcons",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"image": {
+						"y": "30%",
+						"x": "25%",
+						"w": "50%",
+						"h": "30%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/emoticons.png"
+					}
+				},
+				{
+					"text": "Cibo",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 14,
+						"y": "65%",
+						"x": "35%",
+						"w": "15%",
+						"h": "10%",
+						"color": "333333",
+						"isTextBox": true,
+						"objectName": "Text 2",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true
+						}
+					}
+				},
+				{
+					"text": "Attività fisica",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 14,
+						"y": "65%",
+						"x": "60%",
+						"w": "15%",
+						"h": "10%",
+						"color": "333333",
+						"isTextBox": true,
+						"objectName": "Text 3",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true
+						}
+					}
+				},
+				{
+					"text": "Emozioni",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 14,
+						"y": "75%",
+						"x": "45%",
+						"w": "10%",
+						"h": "10%",
+						"color": "333333",
+						"bold": true,
+						"isTextBox": true,
+						"objectName": "Text 4",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Il contratto della famiglia",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"image": {
+						"y": "15%",
+						"x": "30%",
+						"w": "40%",
+						"h": "80%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/il contratto della famiglia.png"
+					}
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Il modello di cura multidisciplinare",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"image": {
+						"y": "30%",
+						"x": "10%",
+						"w": "80%",
+						"h": "60%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/modello cura interdisciplinare.png"
+					}
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Criteri invio al II livello",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"pStack": [
+						{
+							"text": "OBESITA’ NON COMPLICATA",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"bold": true,
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "M e F con obesità (>= 97° percentile WHO o secondo IOTF)",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Età: da 3 a 12 anni",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Diagnosi Motivazionale: Stadio di DETERMINAZIONE",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Richiesta del PLS-MMG",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Esami: Glucosio - Insulina - Emoglobina glicata - Trigliceridi - Colesterolo Tot - GOT - GPT - Eco epatica",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						}
+					],
+					"options": []
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Criteri invio al III livello",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"pStack": [
+						{
+							"text": "OBESITA’ COMPLICATA O SECONDARIA",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"bold": true,
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Obesità in bambini con età  < 3 anni",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Obesità associate a ritardo cognitivo e/o dismorfismi",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Dislipidemie",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Iperinsulinismo con Iperglicemia",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Steatosi con Transaminasi elevate",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						},
+						{
+							"text": "Patologie genetiche associate ad Obesità",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						}
+					],
+					"options": []
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Diagnosi motivazionale",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"image": {
+						"y": "20%",
+						"x": "5%",
+						"w": "90%",
+						"h": "75%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/diagnosi motivazionale.jpg"
+					}
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "20%",
+						"x": "20%",
+						"w": "60%",
+						"h": "60%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Prevenzione",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 34,
+						"bold": true,
+						"color": "007991",
+						"y": "25%",
+						"x": "25%",
+						"w": "50%",
+						"h": "50%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "Le guide anticipatorie",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"pStack": [
+						{
+							"text": "Informazioni su normali aspettative di una fascia d'età (o di una malattia) per fornire supporto ai bilanci di salute e affrontare i problemi prima che insorgano.",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 16,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						}
+					],
+					"options": []
+				},
+				{
+					"image": {
+						"y": "62.5%",
+						"x": "5%",
+						"h": "32.5%",
+						"w": "40%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/al tuo bimbo fa bene.png"
+					}
+				},
+				{
+					"image": {
+						"y": "20%",
+						"x": "55%",
+						"h": "75%",
+						"w": "40%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/Quando ha 5 mesi.png"
+					}
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "COSIE",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"image": {
+						"y": "20%",
+						"x": "5%",
+						"h": "37.5%",
+						"w": "90%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/COSIE logo.jpg"
+					}
+				},
+				{
+					"image": {
+						"y": "62.5%",
+						"x": "5%",
+						"h": "37.5%",
+						"w": "90%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/Cosie project.png"
+					}
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"shape_RECTANGLE": {
+						"y": "4%",
+						"x": 0,
+						"h": "10%",
+						"w": "100%",
+						"fill": {
+							"color": "eec643"
+						},
+						"line": {
+							"type": "none"
+						},
+						"objectName": "Shape 0"
+					}
+				},
+				{
+					"text": "La App BeBa",
+					"options": {
+						"fontFace": "Tahoma",
+						"fontSize": 24,
+						"bold": true,
+						"color": "007991",
+						"y": "5%",
+						"x": "5%",
+						"w": "90%",
+						"h": "8%",
+						"align": "center",
+						"isTextBox": true,
+						"objectName": "Text 1",
+						"line": {},
+						"lineSpacing": null,
+						"lineSpacingMultiple": null,
+						"_bodyProp": {
+							"autoFit": false,
+							"anchor": "ctr",
+							"vert": null,
+							"wrap": true,
+							"align": "center"
+						}
+					}
+				},
+				{
+					"image": {
+						"y": "18%",
+						"x": "8%",
+						"w": "13%",
+						"h": "21%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/BeBa logo.png"
+					}
+				},
+				{
+					"pStack": [
+						{
+							"text": "Ricette, attività motoria, giochi, letture e altre indicazioni per un corretto e sano stile di vita a sostegno della genitorialità",
+							"options": {
+								"fontFace": "Tahoma",
+								"fontSize": 18,
+								"paraSpaceAfter": "10",
+								"breakLine": true,
+								"color": "333333",
+								"objectName": "Text 2",
+								"line": {},
+								"lineSpacing": null,
+								"lineSpacingMultiple": null,
+								"_bodyProp": {
+									"autoFit": false,
+									"anchor": "ctr",
+									"vert": null,
+									"wrap": true
+								}
+							}
+						}
+					],
+					"options": []
+				},
+				{
+					"image": {
+						"y": "15%",
+						"x": "35%",
+						"w": "20%",
+						"h": "70%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/ricetta.png"
+					}
+				},
+				{
+					"image": {
+						"y": "24%",
+						"x": "56%",
+						"w": "20%",
+						"h": "70%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/beba attività.png"
+					}
+				},
+				{
+					"image": {
+						"y": "19%",
+						"x": "77%",
+						"w": "20%",
+						"h": "70%",
+						"path": "C:/Users/Stefano Bassoli/Pictures/obesi/beba guida famiglia.png"
+					}
+				}
+			]
+		}
+	]
+}

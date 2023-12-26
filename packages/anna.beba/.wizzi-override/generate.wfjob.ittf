@@ -49,6 +49,7 @@ wfjob anna.beba/job
         wfjobs(any_css, &jobCtx)
         wfjobs(any_ppt, &jobCtx)
         wfjobs(any_pdf, &jobCtx)
+        wfjobs(any_docx, &jobCtx)
         wfjobs(any_plain, &jobCtx, json)
 		artifact any_ittf_inside___copy
 			src ./**/*__copy/**/*.ittf

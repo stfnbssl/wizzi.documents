@@ -1,0 +1,1010 @@
+{
+    "slides": [
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "Dal “Progetto sovrappeso/obesità” alla procedura “BMInforma”"
+                },
+                {
+                    "kind": "textblock",
+                    "position": {
+                        "isObject": true,
+                        "y": "30%",
+                        "x": "20%",
+                        "h": "30%",
+                        "w": "60%"
+                    },
+                    "paras": [
+                        "Progetto sovrappeso/obesità (2008)",
+                        "Normativa regione E-R (2013)",
+                        "Procedura permanente BMInforma (2018)"
+                    ]
+                },
+                {
+                    "kind": "image",
+                    "position": {
+                        "isObject": true,
+                        "y": "60%",
+                        "x": "25%",
+                        "h": "10%",
+                        "w": "12%"
+                    },
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/freccia destra.png"
+                },
+                {
+                    "kind": "textblock",
+                    "position": {
+                        "isObject": true,
+                        "y": "60%",
+                        "x": "35%",
+                        "h": "25%",
+                        "w": "50%"
+                    },
+                    "textSize": 2,
+                    "paras": [
+                        "L’ambulatorio del  pediatra avvia  un percorso di intercettazione  e coordinamento  multidisciplinare per il trattamento del bambino con sovrappeso/obesità"
+                    ]
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "Principi fondamentali"
+                },
+                {
+                    "kind": "textblock",
+                    "position": {
+                        "isObject": true,
+                        "y": "35%",
+                        "x": "20%",
+                        "h": "30%",
+                        "w": "60%"
+                    },
+                    "paras": [
+                        "Consapevolezza (Letteratura scientifica, JClub, Guide anticipatorie)",
+                        "Formazione/Motivazione operatori",
+                        "Costituzione rete di servizi",
+                        "Normative E-R",
+                        "Supporto aziendale organizzativo e informatico"
+                    ]
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "Primi passi"
+                },
+                {
+                    "kind": "textblock",
+                    "position": {
+                        "isObject": true,
+                        "y": "35%",
+                        "x": "20%",
+                        "h": "30%",
+                        "w": "60%"
+                    },
+                    "paras": [
+                        "Presa di coscienza durante la partecipazione ad eventi formativi",
+                        "Maturazione della consapevolezza della gravità assunta dal problema",
+                        "Assenza di linee guida per la prevenzione e il trattamento"
+                    ]
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "Primo intervento: raccolta dati"
+                },
+                {
+                    "kind": "textblock",
+                    "position": {
+                        "isObject": true,
+                        "y": "35%",
+                        "x": "20%",
+                        "h": "30%",
+                        "w": "60%"
+                    },
+                    "paras": [
+                        "PLS",
+                        "Epidemiologia",
+                        "CED",
+                        "Progetto “Sovrappeso e obesità” negli Accordi Aziendali 2008 - 2010 dei PLS"
+                    ]
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "Misurazione BMI (evidenza di grado B)"
+                },
+                {
+                    "kind": "textblock",
+                    "position": {
+                        "isObject": true,
+                        "y": "35%",
+                        "x": "20%",
+                        "h": "30%",
+                        "w": "60%"
+                    },
+                    "paras": [
+                        "Tutti i bambini 3-14 anni",
+                        "Per 15 mesi ai Bilanci di Salute",
+                        "Risultato: 7396 bambini con sovrappeso/obesità (20%)"
+                    ]
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "Studio e impostazione strategia"
+                },
+                {
+                    "kind": "titled-textblock",
+                    "position": "full",
+                    "title": "Raccomandazione dell’American Medical Association (AMA)",
+                    "paras": [
+                        "1° gradino: counselling",
+                        "2° gradino: un piano strutturato di gestione del peso",
+                        "3° gradino: intervento completo multidisciplinare"
+                    ]
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "Primo gradino (counselling)"
+                },
+                {
+                    "kind": "textblock",
+                    "position": {
+                        "isObject": true,
+                        "y": "35%",
+                        "x": "20%",
+                        "h": "30%",
+                        "w": "60%"
+                    },
+                    "paras": [
+                        "Intervento Motivazionale al cambiamento degli stili di vita rivolto a bambini e famiglie",
+                        "“Modello Transteorico del cambiamento” - DiClemente e Prochaska"
+                    ]
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "Costituzione Rete e Formazione"
+                },
+                {
+                    "kind": "textblock",
+                    "position": {
+                        "isObject": true,
+                        "y": "35%",
+                        "x": "20%",
+                        "h": "30%",
+                        "w": "60%"
+                    },
+                    "paras": [
+                        "Progettazione rete servizi: Pediatri, Epidemiologia, Servizio Igiene Alimenti e Nutrizione (SIAN), Medicina dello Sport e Luoghi di Prevenzione (LdP) con il sostegno delle Cure Primarie.",
+                        "Counseling Motivazionale per i PLS della provincia (20 ore presso LdP).",
+                        "L’Intervento Motivazionale offre agli operatori fiducia e strumenti per dialogare con le famiglie."
+                    ]
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "Misurare facendo"
+                },
+                {
+                    "kind": "textblock",
+                    "position": {
+                        "isObject": true,
+                        "y": "35%",
+                        "x": "20%",
+                        "h": "30%",
+                        "w": "60%"
+                    },
+                    "paras": [
+                        "Intervento sostenibile",
+                        "Misurazione",
+                        "Follow up",
+                        "Strumenti software adeguati"
+                    ]
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "Il Trial Clinico"
+                },
+                {
+                    "kind": "image",
+                    "position": {
+                        "isObject": true,
+                        "y": "25%",
+                        "x": "5%",
+                        "h": "60%",
+                        "w": "30%"
+                    },
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/trial clinico.png"
+                },
+                {
+                    "kind": "textblock",
+                    "position": {
+                        "isObject": true,
+                        "y": "15%",
+                        "x": "30%",
+                        "h": "75%",
+                        "w": "30%"
+                    },
+                    "textSize": 3,
+                    "paras": [
+                        "12 mesi",
+                        "Intervento Motivazionale efficace",
+                        "Efficace per le femmine",
+                        "Più efficace per bambini di mamme con titolo di studio più alto",
+                        "Intervento Sostenibile",
+                        "Alta aderenza allo studio",
+                        "Feedback positivo dei professionisti coinvolti"
+                    ]
+                },
+                {
+                    "kind": "text",
+                    "text": "Il Trial 2013 su Pediatrics",
+                    "position": {
+                        "isObject": true,
+                        "y": "15%",
+                        "x": "60%",
+                        "h": "10%",
+                        "w": "40%"
+                    }
+                },
+                {
+                    "kind": "image",
+                    "position": {
+                        "isObject": true,
+                        "y": "25%",
+                        "x": "60%",
+                        "h": "30%",
+                        "w": "40%"
+                    },
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/trial clinico pediatrics.jpg"
+                },
+                {
+                    "kind": "text",
+                    "text": "Il gruppo cocreation",
+                    "position": {
+                        "isObject": true,
+                        "y": "57%",
+                        "x": "60%",
+                        "h": "8%",
+                        "w": "35%"
+                    }
+                },
+                {
+                    "kind": "image",
+                    "position": {
+                        "isObject": true,
+                        "y": "65%",
+                        "x": "60%",
+                        "h": "30%",
+                        "w": "40%"
+                    },
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/Gruppo cocreation.jpg"
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "Quanto peso a 3 anni"
+                },
+                {
+                    "kind": "image",
+                    "position": "left",
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/quanto peso a 3 anni.png"
+                },
+                {
+                    "kind": "image",
+                    "position": "top-right",
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/le abitudini a 3 anni.png"
+                },
+                {
+                    "kind": "image",
+                    "position": "bottom-right",
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/divieto passeggino.jpg"
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "Normativa regionale 2013"
+                },
+                {
+                    "kind": "image",
+                    "position": {
+                        "isObject": true,
+                        "y": "15%",
+                        "x": "35%",
+                        "h": "80%",
+                        "w": "30%"
+                    },
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/modello regionale 2013.png"
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "Quanto peso a 5 anni: la Corte dalla nascita a 12 anni 2011"
+                },
+                {
+                    "kind": "image",
+                    "position": "full",
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/Coorte seguita dai PLS.jpg",
+                    "margin": 10
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "BMInforma"
+                },
+                {
+                    "kind": "image",
+                    "position": {
+                        "isObject": true,
+                        "y": "25%",
+                        "x": "30%",
+                        "h": "60%",
+                        "w": "40%"
+                    },
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/logo BMInForma.png"
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "Guida all'intervento motivazionale"
+                },
+                {
+                    "kind": "image",
+                    "position": {
+                        "isObject": true,
+                        "y": "15%",
+                        "x": "30%",
+                        "h": "80%",
+                        "w": "40%"
+                    },
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/guida intervento motivazionale.jpg"
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "Intervento Motivazionale BMInforma"
+                },
+                {
+                    "kind": "textblock",
+                    "position": {
+                        "isObject": true,
+                        "y": "30%",
+                        "x": "6%",
+                        "h": "10%",
+                        "w": "30%"
+                    },
+                    "paras": [
+                        "L'età dell'adiposity rebound."
+                    ]
+                },
+                {
+                    "kind": "image",
+                    "position": {
+                        "isObject": true,
+                        "y": "50%",
+                        "x": "6%",
+                        "h": "15%",
+                        "w": "10%"
+                    },
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/logo BMInForma.png"
+                },
+                {
+                    "kind": "textblock",
+                    "position": {
+                        "isObject": true,
+                        "y": "20%",
+                        "x": "50%",
+                        "h": "10%",
+                        "w": "50%"
+                    },
+                    "paras": [
+                        "Lo screening per BMInForma"
+                    ]
+                },
+                {
+                    "kind": "image",
+                    "position": {
+                        "isObject": true,
+                        "y": "30%",
+                        "x": "30%",
+                        "h": "15%",
+                        "w": "20%"
+                    },
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/bilancio 5 anni - anagrafe.png"
+                },
+                {
+                    "kind": "image",
+                    "position": {
+                        "isObject": true,
+                        "y": "50%",
+                        "x": "30%",
+                        "h": "15%",
+                        "w": "20%"
+                    },
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/bilancio 5 anni - antropologici.png"
+                },
+                {
+                    "kind": "image",
+                    "position": {
+                        "isObject": true,
+                        "y": "70%",
+                        "x": "30%",
+                        "h": "15%",
+                        "w": "20%"
+                    },
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/bilancio 5 anni - aspetti clinici.png"
+                },
+                {
+                    "kind": "textblock",
+                    "position": {
+                        "isObject": true,
+                        "y": "45%",
+                        "x": "50%",
+                        "h": "20%",
+                        "w": "20%"
+                    },
+                    "textSize": 2,
+                    "paras": [
+                        "Se il BMI supera l'85° percentile"
+                    ]
+                },
+                {
+                    "kind": "image",
+                    "position": {
+                        "isObject": true,
+                        "y": "62%",
+                        "x": "55%",
+                        "h": "10%",
+                        "w": "12%"
+                    },
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/freccia destra.png"
+                },
+                {
+                    "kind": "image",
+                    "position": {
+                        "isObject": true,
+                        "y": "30%",
+                        "x": "70%",
+                        "h": "60%",
+                        "w": "25%"
+                    },
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/bilancio 5 anni - stili di vita.png"
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "Diagnosi motivazionale"
+                },
+                {
+                    "kind": "image",
+                    "position": "full",
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/diagnosi motivazionale.jpg"
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "EmotIcons"
+                },
+                {
+                    "kind": "image",
+                    "position": {
+                        "isObject": true,
+                        "y": "30%",
+                        "x": "25%",
+                        "h": "30%",
+                        "w": "50%"
+                    },
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/emoticons.png"
+                },
+                {
+                    "kind": "text",
+                    "text": "Cibo",
+                    "position": {
+                        "isObject": true,
+                        "y": "65%",
+                        "x": "35%",
+                        "h": "10%",
+                        "w": "15%"
+                    }
+                },
+                {
+                    "kind": "text",
+                    "text": "Attività fisica",
+                    "position": {
+                        "isObject": true,
+                        "y": "65%",
+                        "x": "60%",
+                        "h": "10%",
+                        "w": "15%"
+                    }
+                },
+                {
+                    "kind": "text",
+                    "text": "Emozioni",
+                    "position": {
+                        "isObject": true,
+                        "y": "75%",
+                        "x": "45%",
+                        "h": "10%",
+                        "w": "10%"
+                    },
+                    "bold": true
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "Il contratto della famiglia"
+                },
+                {
+                    "kind": "image",
+                    "position": {
+                        "isObject": true,
+                        "y": "15%",
+                        "x": "30%",
+                        "h": "80%",
+                        "w": "40%"
+                    },
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/il contratto della famiglia.png"
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "Il modello di cura multidisciplinare"
+                },
+                {
+                    "kind": "image",
+                    "position": "full",
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/modello cura interdisciplinare.png",
+                    "margin": 10
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "Criteri invio al II livello"
+                },
+                {
+                    "kind": "titled-textblock",
+                    "position": "full",
+                    "title": "OBESITA’ NON COMPLICATA",
+                    "paras": [
+                        "M e F con obesità (>= 97° percentile WHO o secondo IOTF)",
+                        "Età: da 3 a 12 anni",
+                        "Diagnosi Motivazionale: Stadio di DETERMINAZIONE",
+                        "Richiesta del PLS-MMG",
+                        "Esami: Glucosio - Insulina - Emoglobina glicata - Trigliceridi - Colesterolo Tot - GOT - GPT - Eco epatica"
+                    ]
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "Criteri invio al III livello"
+                },
+                {
+                    "kind": "titled-textblock",
+                    "position": "full",
+                    "title": "OBESITA’ COMPLICATA O SECONDARIA",
+                    "paras": [
+                        "Obesità in bambini con età  < 3 anni",
+                        "Obesità associate a ritardo cognitivo e/o dismorfismi",
+                        "Dislipidemie",
+                        "Iperinsulinismo con Iperglicemia",
+                        "Steatosi con Transaminasi elevate",
+                        "Patologie genetiche associate ad Obesità"
+                    ]
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "Diagnosi motivazionale"
+                },
+                {
+                    "kind": "image",
+                    "position": "full",
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/diagnosi motivazionale.jpg"
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "section-title",
+                    "text": "Prevenzione"
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "Le guide anticipatorie"
+                },
+                {
+                    "kind": "textblock",
+                    "position": "top-left",
+                    "textSize": 2,
+                    "paras": [
+                        "Informazioni su normali aspettative di una fascia d'età (o di una malattia) per fornire supporto ai bilanci di salute e affrontare i problemi prima che insorgano."
+                    ]
+                },
+                {
+                    "kind": "image",
+                    "position": "bottom-left",
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/al tuo bimbo fa bene.png"
+                },
+                {
+                    "kind": "image",
+                    "position": "right",
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/Quando ha 5 mesi.png"
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "COSIE"
+                },
+                {
+                    "kind": "image",
+                    "position": "top",
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/COSIE logo.jpg"
+                },
+                {
+                    "kind": "image",
+                    "position": "bottom",
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/Cosie project.png"
+                }
+            ]
+        },
+        {
+            "objects": [
+                {
+                    "kind": "title",
+                    "text": "La App BeBa"
+                },
+                {
+                    "kind": "image",
+                    "position": {
+                        "isObject": true,
+                        "y": "18%",
+                        "x": "8%",
+                        "h": "21%",
+                        "w": "13%"
+                    },
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/BeBa logo.png"
+                },
+                {
+                    "kind": "textblock",
+                    "position": {
+                        "isObject": true,
+                        "y": "40%",
+                        "x": "4%",
+                        "h": "50%",
+                        "w": "30%"
+                    },
+                    "paras": [
+                        "Ricette, attività motoria, giochi, letture e altre indicazioni per un corretto e sano stile di vita a sostegno della genitorialità"
+                    ]
+                },
+                {
+                    "kind": "image",
+                    "position": {
+                        "isObject": true,
+                        "y": "15%",
+                        "x": "35%",
+                        "h": "70%",
+                        "w": "20%"
+                    },
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/ricetta.png"
+                },
+                {
+                    "kind": "image",
+                    "position": {
+                        "isObject": true,
+                        "y": "24%",
+                        "x": "56%",
+                        "h": "70%",
+                        "w": "20%"
+                    },
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/beba attività.png"
+                },
+                {
+                    "kind": "image",
+                    "position": {
+                        "isObject": true,
+                        "y": "19%",
+                        "x": "77%",
+                        "h": "70%",
+                        "w": "20%"
+                    },
+                    "path": "C:/Users/Stefano Bassoli/Pictures/obesi/beba guida famiglia.png"
+                }
+            ]
+        }
+    ],
+    "ppt": {
+        "bullet": {
+            "codes": [
+                "25BA",
+                "25D1",
+                "25CC",
+                "2B24"
+            ]
+        },
+        "line": {
+            "dashTypes": [
+                "solid",
+                "dash",
+                "dashDot",
+                "lgDash",
+                "lgDashDot",
+                "lgDashDotDot",
+                "sysDash",
+                "sysDot"
+            ],
+            "arrowTypes": [
+                "none",
+                "arrow",
+                "diamond",
+                "oval",
+                "stealth",
+                "triangle"
+            ]
+        },
+        "shapes": {
+            "ACTION_BUTTON_BACK_OR_PREVIOUS": "actionButtonBackPrevious",
+            "ACTION_BUTTON_BEGINNING": "actionButtonBeginning",
+            "ACTION_BUTTON_CUSTOM": "actionButtonBlank",
+            "ACTION_BUTTON_DOCUMENT": "actionButtonDocument",
+            "ACTION_BUTTON_END": "actionButtonEnd",
+            "ACTION_BUTTON_FORWARD_OR_NEXT": "actionButtonForwardNext",
+            "ACTION_BUTTON_HELP": "actionButtonHelp",
+            "ACTION_BUTTON_HOME": "actionButtonHome",
+            "ACTION_BUTTON_INFORMATION": "actionButtonInformation",
+            "ACTION_BUTTON_MOVIE": "actionButtonMovie",
+            "ACTION_BUTTON_RETURN": "actionButtonReturn",
+            "ACTION_BUTTON_SOUND": "actionButtonSound",
+            "ARC": "arc",
+            "BALLOON": "wedgeRoundRectCallout",
+            "BENT_ARROW": "bentArrow",
+            "BENT_UP_ARROW": "bentUpArrow",
+            "BEVEL": "bevel",
+            "BLOCK_ARC": "blockArc",
+            "CAN": "can",
+            "CHART_PLUS": "chartPlus",
+            "CHART_STAR": "chartStar",
+            "CHART_X": "chartX",
+            "CHEVRON": "chevron",
+            "CHORD": "chord",
+            "CIRCULAR_ARROW": "circularArrow",
+            "CLOUD": "cloud",
+            "CLOUD_CALLOUT": "cloudCallout",
+            "CORNER": "corner",
+            "CORNER_TABS": "cornerTabs",
+            "CROSS": "plus",
+            "CUBE": "cube",
+            "CURVED_DOWN_ARROW": "curvedDownArrow",
+            "CURVED_DOWN_RIBBON": "ellipseRibbon",
+            "CURVED_LEFT_ARROW": "curvedLeftArrow",
+            "CURVED_RIGHT_ARROW": "curvedRightArrow",
+            "CURVED_UP_ARROW": "curvedUpArrow",
+            "CURVED_UP_RIBBON": "ellipseRibbon2",
+            "DECAGON": "decagon",
+            "DIAGONAL_STRIPE": "diagStripe",
+            "DIAMOND": "diamond",
+            "DODECAGON": "dodecagon",
+            "DONUT": "donut",
+            "DOUBLE_BRACE": "bracePair",
+            "DOUBLE_BRACKET": "bracketPair",
+            "DOUBLE_WAVE": "doubleWave",
+            "DOWN_ARROW": "downArrow",
+            "DOWN_ARROW_CALLOUT": "downArrowCallout",
+            "DOWN_RIBBON": "ribbon",
+            "EXPLOSION1": "irregularSeal1",
+            "EXPLOSION2": "irregularSeal2",
+            "FLOWCHART_ALTERNATE_PROCESS": "flowChartAlternateProcess",
+            "FLOWCHART_CARD": "flowChartPunchedCard",
+            "FLOWCHART_COLLATE": "flowChartCollate",
+            "FLOWCHART_CONNECTOR": "flowChartConnector",
+            "FLOWCHART_DATA": "flowChartInputOutput",
+            "FLOWCHART_DECISION": "flowChartDecision",
+            "FLOWCHART_DELAY": "flowChartDelay",
+            "FLOWCHART_DIRECT_ACCESS_STORAGE": "flowChartMagneticDrum",
+            "FLOWCHART_DISPLAY": "flowChartDisplay",
+            "FLOWCHART_DOCUMENT": "flowChartDocument",
+            "FLOWCHART_EXTRACT": "flowChartExtract",
+            "FLOWCHART_INTERNAL_STORAGE": "flowChartInternalStorage",
+            "FLOWCHART_MAGNETIC_DISK": "flowChartMagneticDisk",
+            "FLOWCHART_MANUAL_INPUT": "flowChartManualInput",
+            "FLOWCHART_MANUAL_OPERATION": "flowChartManualOperation",
+            "FLOWCHART_MERGE": "flowChartMerge",
+            "FLOWCHART_MULTIDOCUMENT": "flowChartMultidocument",
+            "FLOWCHART_OFFLINE_STORAGE": "flowChartOfflineStorage",
+            "FLOWCHART_OFFPAGE_CONNECTOR": "flowChartOffpageConnector",
+            "FLOWCHART_OR": "flowChartOr",
+            "FLOWCHART_PREDEFINED_PROCESS": "flowChartPredefinedProcess",
+            "FLOWCHART_PREPARATION": "flowChartPreparation",
+            "FLOWCHART_PROCESS": "flowChartProcess",
+            "FLOWCHART_PUNCHED_TAPE": "flowChartPunchedTape",
+            "FLOWCHART_SEQUENTIAL_ACCESS_STORAGE": "flowChartMagneticTape",
+            "FLOWCHART_SORT": "flowChartSort",
+            "FLOWCHART_STORED_DATA": "flowChartOnlineStorage",
+            "FLOWCHART_SUMMING_JUNCTION": "flowChartSummingJunction",
+            "FLOWCHART_TERMINATOR": "flowChartTerminator",
+            "FOLDED_CORNER": "folderCorner",
+            "FRAME": "frame",
+            "FUNNEL": "funnel",
+            "GEAR_6": "gear6",
+            "GEAR_9": "gear9",
+            "HALF_FRAME": "halfFrame",
+            "HEART": "heart",
+            "HEPTAGON": "heptagon",
+            "HEXAGON": "hexagon",
+            "HORIZONTAL_SCROLL": "horizontalScroll",
+            "ISOSCELES_TRIANGLE": "triangle",
+            "LEFT_ARROW": "leftArrow",
+            "LEFT_ARROW_CALLOUT": "leftArrowCallout",
+            "LEFT_BRACE": "leftBrace",
+            "LEFT_BRACKET": "leftBracket",
+            "LEFT_CIRCULAR_ARROW": "leftCircularArrow",
+            "LEFT_RIGHT_ARROW": "leftRightArrow",
+            "LEFT_RIGHT_ARROW_CALLOUT": "leftRightArrowCallout",
+            "LEFT_RIGHT_CIRCULAR_ARROW": "leftRightCircularArrow",
+            "LEFT_RIGHT_RIBBON": "leftRightRibbon",
+            "LEFT_RIGHT_UP_ARROW": "leftRightUpArrow",
+            "LEFT_UP_ARROW": "leftUpArrow",
+            "LIGHTNING_BOLT": "lightningBolt",
+            "LINE_CALLOUT_1": "borderCallout1",
+            "LINE_CALLOUT_1_ACCENT_BAR": "accentCallout1",
+            "LINE_CALLOUT_1_BORDER_AND_ACCENT_BAR": "accentBorderCallout1",
+            "LINE_CALLOUT_1_NO_BORDER": "callout1",
+            "LINE_CALLOUT_2": "borderCallout2",
+            "LINE_CALLOUT_2_ACCENT_BAR": "accentCallout2",
+            "LINE_CALLOUT_2_BORDER_AND_ACCENT_BAR": "accentBorderCallout2",
+            "LINE_CALLOUT_2_NO_BORDER": "callout2",
+            "LINE_CALLOUT_3": "borderCallout3",
+            "LINE_CALLOUT_3_ACCENT_BAR": "accentCallout3",
+            "LINE_CALLOUT_3_BORDER_AND_ACCENT_BAR": "accentBorderCallout3",
+            "LINE_CALLOUT_3_NO_BORDER": "callout3",
+            "LINE_CALLOUT_4": "borderCallout3",
+            "LINE_CALLOUT_4_ACCENT_BAR": "accentCallout3",
+            "LINE_CALLOUT_4_BORDER_AND_ACCENT_BAR": "accentBorderCallout3",
+            "LINE_CALLOUT_4_NO_BORDER": "callout3",
+            "LINE": "line",
+            "LINE_INVERSE": "lineInv",
+            "MATH_DIVIDE": "mathDivide",
+            "MATH_EQUAL": "mathEqual",
+            "MATH_MINUS": "mathMinus",
+            "MATH_MULTIPLY": "mathMultiply",
+            "MATH_NOT_EQUAL": "mathNotEqual",
+            "MATH_PLUS": "mathPlus",
+            "MOON": "moon",
+            "NON_ISOSCELES_TRAPEZOID": "nonIsoscelesTrapezoid",
+            "NOTCHED_RIGHT_ARROW": "notchedRightArrow",
+            "NO_SYMBOL": "noSmoking",
+            "OCTAGON": "octagon",
+            "OVAL": "ellipse",
+            "OVAL_CALLOUT": "wedgeEllipseCallout",
+            "PARALLELOGRAM": "parallelogram",
+            "PENTAGON": "homePlate",
+            "PIE": "pie",
+            "PIE_WEDGE": "pieWedge",
+            "PLAQUE": "plaque",
+            "PLAQUE_TABS": "plaqueTabs",
+            "QUAD_ARROW": "quadArrow",
+            "QUAD_ARROW_CALLOUT": "quadArrowCallout",
+            "RECTANGLE": "rect",
+            "RECTANGULAR_CALLOUT": "wedgeRectCallout",
+            "REGULAR_PENTAGON": "pentagon",
+            "RIGHT_ARROW": "rightArrow",
+            "RIGHT_ARROW_CALLOUT": "rightArrowCallout",
+            "RIGHT_BRACE": "rightBrace",
+            "RIGHT_BRACKET": "rightBracket",
+            "RIGHT_TRIANGLE": "rtTriangle",
+            "ROUNDED_RECTANGLE": "roundRect",
+            "ROUNDED_RECTANGULAR_CALLOUT": "wedgeRoundRectCallout",
+            "ROUND_1_RECTANGLE": "round1Rect",
+            "ROUND_2_DIAG_RECTANGLE": "round2DiagRect",
+            "ROUND_2_SAME_RECTANGLE": "round2SameRect",
+            "SMILEY_FACE": "smileyFace",
+            "SNIP_1_RECTANGLE": "snip1Rect",
+            "SNIP_2_DIAG_RECTANGLE": "snip2DiagRect",
+            "SNIP_2_SAME_RECTANGLE": "snip2SameRect",
+            "SNIP_ROUND_RECTANGLE": "snipRoundRect",
+            "SQUARE_TABS": "squareTabs",
+            "STAR_10_POINT": "star10",
+            "STAR_12_POINT": "star12",
+            "STAR_16_POINT": "star16",
+            "STAR_24_POINT": "star24",
+            "STAR_32_POINT": "star32",
+            "STAR_4_POINT": "star4",
+            "STAR_5_POINT": "star5",
+            "STAR_6_POINT": "star6",
+            "STAR_7_POINT": "star7",
+            "STAR_8_POINT": "star8",
+            "STRIPED_RIGHT_ARROW": "stripedRightArrow",
+            "SUN": "sun",
+            "SWOOSH_ARROW": "swooshArrow",
+            "TEAR": "teardrop",
+            "TRAPEZOID": "trapezoid",
+            "UP_ARROW": "upArrow",
+            "UP_ARROW_CALLOUT": "upArrowCallout",
+            "UP_DOWN_ARROW": "upDownArrow",
+            "UP_DOWN_ARROW_CALLOUT": "upDownArrowCallout",
+            "UP_RIBBON": "ribbon2",
+            "U_TURN_ARROW": "uturnArrow",
+            "VERTICAL_SCROLL": "verticalScroll",
+            "WAVE": "wave"
+        }
+    }
+}

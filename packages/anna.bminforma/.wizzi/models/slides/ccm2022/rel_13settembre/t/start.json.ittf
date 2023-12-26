@@ -1,0 +1,217 @@
+$group
+
+    $if false
+        slide()
+            section( Start
+       
+    slide( Dal “Progetto sovrappeso/obesità” alla procedura “BMInforma”
+        div-rect( 30% 20% 30% 60%
+            [ paras
+                "Progetto sovrappeso/obesità (2008)"
+                "Normativa regione E-R (2013)"
+                "Procedura permanente BMInforma (2018)"
+
+        image-rect( freccia destra.png, 60% 25% 10% 12%
+        
+        div-rect( 60% 35% 25% 50%
+            textSize 2
+            [ paras 
+                "L’ambulatorio del  pediatra avvia  un percorso di 
+                    \b intercettazione  e coordinamento  multidisciplinare 
+                    \b per il trattamento del bambino con sovrappeso/obesità"
+
+
+    slide( Principi fondamentali
+        div-rect( 35% 20% 30% 60%
+            [ paras
+                "Consapevolezza (Letteratura scientifica, JClub, Guide anticipatorie)"
+                "Formazione/Motivazione operatori"
+                "Costituzione rete di servizi"
+                "Normative E-R"
+                "Supporto aziendale organizzativo e informatico"
+
+    slide( Primi passi
+        div-rect( 35% 20% 30% 60%
+            [ paras
+                "Presa di coscienza durante la partecipazione ad eventi formativi"
+                "Maturazione della consapevolezza della gravità assunta dal problema"
+                "Assenza di linee guida per la prevenzione e il trattamento"
+
+    slide( Primo intervento: raccolta dati
+        div-rect( 35% 20% 30% 60%
+            [ paras
+                "PLS"
+                "Epidemiologia"
+                "CED"
+                "Progetto “Sovrappeso e obesità” negli Accordi Aziendali 2008 - 2010 dei PLS"
+
+    slide( Misurazione BMI (evidenza di grado B))
+        div-rect( 35% 20% 30% 60%
+            [ paras
+                "Tutti i bambini 3-14 anni"
+                "Per 15 mesi ai Bilanci di Salute"
+                "Risultato: 7396 bambini con sovrappeso/obesità (20%)"
+
+    slide( Studio e impostazione strategia
+        div( full, Raccomandazione dell’American Medical Association (AMA) )
+            [ paras 
+                "1° gradino: counselling"
+                "2° gradino: un piano strutturato di gestione del peso"
+                "3° gradino: intervento completo multidisciplinare"
+
+    slide( Primo gradino (counselling) )
+        div-rect( 35% 20% 30% 60%
+            [ paras
+                "Intervento Motivazionale al cambiamento degli stili di vita rivolto a bambini e famiglie"
+                "“Modello Transteorico del cambiamento” - DiClemente e Prochaska"
+
+    slide( Costituzione Rete e Formazione
+        div-rect( 35% 20% 30% 60%
+            [ paras        
+                "Progettazione rete servizi: Pediatri, Epidemiologia, Servizio Igiene Alimenti e Nutrizione (SIAN),
+                    \b Medicina dello Sport 
+                    \b e Luoghi di Prevenzione (LdP) con il sostegno delle Cure Primarie."
+                "Counseling Motivazionale per i PLS della provincia (20 ore presso LdP)."
+                "L’Intervento Motivazionale offre agli operatori fiducia e strumenti per dialogare con le famiglie."
+
+    slide( Misurare facendo
+        div-rect( 35% 20% 30% 60%
+            [ paras
+                "Intervento sostenibile"
+                "Misurazione"
+                "Follow up"
+                "Strumenti software adeguati"
+
+    slide( Il Trial Clinico
+        image-rect( trial clinico.png, 25% 5% 60% 30%
+        div-rect( 15% 30% 75% 30%
+            textSize 3
+            [ paras 
+                "12 mesi"
+                "Intervento Motivazionale efficace"
+                "Efficace per le femmine"
+                "Più efficace per bambini di mamme con titolo di studio più alto"
+                "Intervento Sostenibile"
+                "Alta aderenza allo studio"
+                "Feedback positivo dei professionisti coinvolti"
+
+        text-rect( Il Trial 2013 su Pediatrics, 15% 60% 10% 40%
+        image-rect( trial clinico pediatrics.jpg, 25% 60% 30% 40%
+
+        text-rect( Il gruppo cocreation, 57% 60% 8% 35%
+        image-rect( Gruppo cocreation.jpg, 65% 60% 30% 40%
+
+    slide( Quanto peso a 3 anni
+
+        image( left, quanto peso a 3 anni.png
+
+        image( top-right,  le abitudini a 3 anni.png )
+        
+        image( bottom-right,  divieto passeggino.jpg )
+
+    slide( Normativa regionale 2013
+
+        image-rect( modello regionale 2013.png, 15% 35% 80% 30%
+
+    slide( Quanto peso a 5 anni: la Corte dalla nascita a 12 anni 2011
+        image( full, Coorte seguita dai PLS.jpg
+            margin 10
+
+    slide( BMInforma
+        image-rect( logo BMInForma.png, 25% 30% 60% 40%
+
+    slide( Guida all'intervento motivazionale
+        image-rect( guida intervento motivazionale.jpg, 15% 30% 80% 40%
+
+    slide( Intervento Motivazionale BMInforma
+
+        div-rect( 30% 6% 10% 30%
+            [ paras
+                "L'età dell'adiposity rebound${dot}"
+        image-rect( logo BMInForma.png, 50% 6% 15% 10%
+
+        div-rect( 20% 50% 10% 50%
+            [ paras
+                "Lo screening per BMInForma"
+        image-rect( bilancio 5 anni - anagrafe.png, 30% 30% 15% 20%
+        image-rect( bilancio 5 anni - antropologici.png, 50% 30% 15% 20%
+        image-rect( bilancio 5 anni - aspetti clinici.png, 70% 30% 15% 20%
+
+        div-rect( 45% 50% 20% 20%
+            textSize 2
+            [ paras
+                "Se il BMI supera l'85° percentile"
+        image-rect( freccia destra.png, 62% 55% 10% 12%
+                
+        image-rect( bilancio 5 anni - stili di vita.png, 30% 70% 60% 25%
+
+    slide( Diagnosi motivazionale
+        image( full, diagnosi motivazionale.jpg
+
+    slide( EmotIcons
+        image-rect( emoticons.png, 30% 25% 30% 50%
+        text-rect( Cibo, 65% 35% 10% 15%
+        text-rect( Attività fisica, 65% 60% 10% 15%
+        text-rect( Emozioni, 75% 45% 10% 10%
+            bold true
+
+    slide( Il contratto della famiglia
+        image-rect( il contratto della famiglia.png, 15% 30% 80% 40%
+
+    slide( Il modello di cura multidisciplinare
+        image( full, modello cura interdisciplinare.png
+            margin 10
+
+    slide( Criteri invio al II livello
+        div( full, OBESITA’ NON COMPLICATA
+            [ paras
+                "M e F con obesità (>= 97° percentile WHO o secondo IOTF)"
+                "Età: da 3 a 12 anni"
+                "Diagnosi Motivazionale: Stadio di DETERMINAZIONE"
+                "Richiesta del PLS-MMG"
+                "Esami: Glucosio - Insulina - Emoglobina glicata - Trigliceridi - Colesterolo Tot - GOT - GPT - Eco epatica" 
+
+    slide( Criteri invio al III livello
+        div( full, OBESITA’ COMPLICATA O SECONDARIA
+            [ paras
+                "Obesità in bambini con età  < 3 anni"
+                "Obesità associate a ritardo cognitivo e/o dismorfismi"
+                "Dislipidemie"
+                "Iperinsulinismo con Iperglicemia"
+                "Steatosi con Transaminasi elevate"
+                "Patologie genetiche associate ad Obesità"
+
+    slide( Diagnosi motivazionale
+        image( full, diagnosi motivazionale.jpg
+
+    slide()
+        section( Prevenzione
+
+    slide( Le guide anticipatorie
+
+        div( top-left )
+            textSize 2
+            [ paras
+                "Informazioni su normali aspettative di una fascia d'età (o di una malattia) per 
+                    \b fornire supporto ai bilanci di salute e affrontare i problemi prima che insorgano${dot}"
+
+        image( bottom-left, al tuo bimbo fa bene.png
+        image( right, Quando ha 5 mesi.png
+
+    slide( COSIE
+        image( top, COSIE logo.jpg
+        image( bottom, Cosie project.png
+
+    slide( La App BeBa
+
+        image-rect( BeBa logo.png, 18% 8% 21% 13%
+        div-rect( 40% 4% 50% 30%
+            [ paras
+                "Ricette, attività motoria, giochi, letture e altre indicazioni per un corretto e sano stile di vita a sostegno della genitorialità"
+        image-rect( ricetta.png, 15% 35% 70% 20%
+        image-rect( beba attività.png, 24% 56% 70% 20%
+        image-rect( beba guida famiglia.png, 19% 77% 70% 20%
+
+
+
+        
